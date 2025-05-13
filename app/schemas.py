@@ -4,6 +4,35 @@ from typing import Optional
 from pydantic import BaseModel, EmailStr
 
 
+#userschema--------------------------------------------
+
+class UserBase(BaseModel):
+    email:EmailStr
+
+
+
+class CreateUser(UserBase):
+    password: str
+
+
+
+class CreateUserResponse(UserBase):
+    id:int
+    created_at: datetime
+    password:str
+    class Config:
+        from_attributes = True
+
+
+class GetUsersResponse(UserBase):
+    id: int
+    created_at: datetime
+    is_active: bool
+    class Config:
+        from_attributes = True
+
+
+
 #posts-schema
 class PostBase(BaseModel):
     title: str
@@ -18,34 +47,13 @@ class CreatePostResponse(PostBase):
     created_at: datetime
     updated_at: datetime
     published: bool
-
-    class Config:
-        orm_mode = True
-
-
-
-
-#userschema--------------------------------------------
-
-class UserBase(BaseModel):
-    email:EmailStr
-
-class CreateUser(UserBase):
-    password: str
-
-class CreateUserResponse(UserBase):
-    id:int
-    created_at: datetime
-    password:str
+    owner_id: int
+    owner: CreateUserResponse
     class Config:
         from_attributes = True
 
-class GetUsersResponse(UserBase):
-    id: int
-    created_at: datetime
-    is_active: bool
-    class Config:
-        from_attributes = True
+
+
 
 
 
@@ -57,6 +65,7 @@ class UserLogin(BaseModel):
     password: str
 
 
+
 class UserLoginResponse(BaseModel):
     id:int
     created_at: datetime
@@ -64,11 +73,17 @@ class UserLoginResponse(BaseModel):
     class Config:
         from_attributes = True
 
+
+
 #Access Token-------------------------------------------
+
+
 
 class Token(BaseModel):
     access_token: str
     token_type: str
+
+
 
 class TokenData(BaseModel):
     id: Optional[int] = None
