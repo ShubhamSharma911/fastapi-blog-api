@@ -7,18 +7,26 @@ from sqlalchemy.orm import session
 from starlette import status
 from datetime import datetime, UTC
 from ..database import get_db
-
+from sqlalchemy import func
 router = APIRouter(
     prefix="/posts",
     tags=["post"]
 )
 
 
-@router.get("/", response_model=List[schemas.CreatePostResponse])
+@router.get("/", response_model=List[schemas.GetallAllPostsResponse])
 def get_posts(db: session = Depends(get_db), current_user: models.User = Depends(oauth2.get_current_user), limit: int = 10, offset: int = 0, search: Optional[str] = "" ):
 
     posts = db.query(models.Post).filter(models.Post.is_deleted == False).filter(models.Post.content.contains(search)).limit(limit).offset(offset).all()
-    return posts
+
+    results =  ((db.query(models.Post, func.count(models.Vote.post_id).label("votes")).join(models.Vote, models.Vote.post_id == models.Post.id, isouter=True)
+                .filter(models.Post.is_deleted == False)
+                .filter(models.Post.content.contains(search))
+                .group_by(models.Post.id))
+                .limit(limit).offset(offset)
+                .all())
+    response = [{"Post": post, "votes": votes} for post, votes in results]
+    return response
 
 
 @router.post("/", status_code= status.HTTP_201_CREATED, response_model = schemas.CreatePostResponse)
@@ -68,4 +76,5 @@ def update_post(post_id: int, post: schemas.PostCreate, db: session = Depends(ge
     updated_post.content = post.content
     updated_post.title = post.title
     updated_post.updated_at = datetime.now(UTC)
+    db.commit()
     return updated_post

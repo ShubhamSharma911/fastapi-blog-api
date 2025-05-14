@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-
+from .models import Post
 from pydantic import BaseModel, EmailStr, conint
 
 
@@ -49,6 +49,12 @@ class CreatePostResponse(PostBase):
     published: bool
     owner_id: int
     owner: CreateUserResponse
+    class Config:
+        from_attributes = True
+
+class GetallAllPostsResponse(BaseModel):
+    Post: CreatePostResponse
+    votes: int
     class Config:
         from_attributes = True
 
