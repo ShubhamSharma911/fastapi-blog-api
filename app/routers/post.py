@@ -15,7 +15,7 @@ router = APIRouter(
 
 
 @router.get("/", response_model=List[schemas.GetallAllPostsResponse])
-def get_posts(db: session = Depends(get_db), current_user: models.User = Depends(oauth2.get_current_user), limit: int = 10, offset: int = 0, search: Optional[str] = "" ):
+def get_posts(db: session = Depends(get_db), limit: int = 10, offset: int = 0, search: Optional[str] = "" ):
 
     posts = db.query(models.Post).filter(models.Post.is_deleted == False).filter(models.Post.content.contains(search)).limit(limit).offset(offset).all()
 
@@ -42,7 +42,7 @@ def create_posts(post: schemas.PostCreate, db: session = Depends(get_db), curren
     return new_post
 
 @router.get("/{post_id}", status_code= status.HTTP_200_OK, response_model = schemas.CreatePostResponse)
-def get_post(post_id: int, db: session = Depends(get_db),current_user = Depends(oauth2.get_current_user)):
+def get_post(post_id: int, db: session = Depends(get_db)):
     post = db.query(models.Post).get(post_id)
     if post is None or post.is_deleted:
         raise HTTPException(
