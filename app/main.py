@@ -1,14 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from . import models, schemas
-from app.database import engine, SessionLocal
 from .routers import post, user, auth, vote
-from . database import get_db
-from .config import settings
-#
-# models.Base.metadata.drop_all(bind=engine)  # Drops all tables defined in models
-# models.Base.metadata.create_all(bind=engine)  # Recreates all tables
 
 app = FastAPI()
 origins=["*"]
@@ -30,4 +22,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message":"more changes have been done"}
+    return {"message":"Hello, World!"}

@@ -1,7 +1,6 @@
-from annotated_types import Timezone
 from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey
 from sqlalchemy.orm import relationship
-from sqlalchemy.sql.functions import now
+
 
 from .database import Base
 
