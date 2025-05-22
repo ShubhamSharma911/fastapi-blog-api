@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from app.config import settings
 from app.database import get_db, Base
-
+from fastapi import status
 
 
 
@@ -35,3 +35,14 @@ def client(session):
 
     app.dependency_overrides[get_db] = override_get_db
     yield TestClient(app)
+
+
+@pytest.fixture
+def test_user(client):
+    user_data = {"email": "123@gmail.com", "password": "Hello123"}
+    response = client.post("/users", json=user_data)
+    assert response.status_code == status.HTTP_201_CREATED
+    new_user = response.json()
+    new_user['password'] = user_data['password']
+    return new_user
+
