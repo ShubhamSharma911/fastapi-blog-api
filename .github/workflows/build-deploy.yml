@@ -19,9 +19,8 @@ jobs:
       postgres:
         image: postgres
         env:
-          POSTGRES_USER: ${{secrets.DATABASE_USERNAME}}  # shubham-sharma
-          POSTGRES_PASSWORD: ${{secrets.DATABASE_PASSWORD}}  # Found2you
-          POSTGRES_DB: ${{secrets.DATABASE_NAME}}_test  # myfastdb_test
+          POSTGRES_PASSWORD: ${{secrets.DATABASE_PASSWORD}}
+          POSTGRES_DB: ${{secrets.DATABASE_NAME}}_test
         ports:
           - 5432:5432
         options: >-
@@ -32,23 +31,18 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Pulling git repo
+      - name: pulling git repo
         uses: actions/checkout@v2
       - name: Install python version
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - name: Update pip
+      - name: update pip
         run: python -m pip install --upgrade pip
-      - name: Install all dependencies
+      - name: install all dependencies
         run: pip install -r requirements.txt
-      - name: Initialize test database
-        run: |
-          psql -h localhost -U ${{secrets.DATABASE_USERNAME}} -d postgres -c "CREATE DATABASE ${{secrets.DATABASE_NAME}}_test;"
-          psql -h localhost -U ${{secrets.DATABASE_USERNAME}} -d ${{secrets.DATABASE_NAME}}_test -c "GRANT ALL PRIVILEGES ON DATABASE ${{secrets.DATABASE_NAME}}_test TO \"${{secrets.DATABASE_USERNAME}}\";"
-        env:
-          PGPASSWORD: ${{secrets.DATABASE_PASSWORD}}
-      - name: Install pytest and run tests
+      - name: install pytest and run tests
         run: |
           pip install httpx
           pytest
+        
