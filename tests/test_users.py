@@ -2,7 +2,7 @@ import pytest
 from starlette import status
 from jose import jwt
 from app import schemas
-from tests.database import  client, session
+# from tests.database import  client, session
 from app.config import settings
 from fastapi import status
 

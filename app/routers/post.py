@@ -14,7 +14,7 @@ router = APIRouter(
 )
 
 
-@router.get("/", response_model=List[schemas.GetallAllPostsResponse])
+@router.get("/", status_code= status.HTTP_200_OK ,response_model=List[schemas.GetallAllPostsResponse])
 def get_posts(db: session = Depends(get_db), limit: int = 10, offset: int = 0, search: Optional[str] = "" ):
 
     posts = db.query(models.Post).filter(models.Post.is_deleted == False).filter(models.Post.content.contains(search)).limit(limit).offset(offset).all()
@@ -41,6 +41,7 @@ def create_posts(post: schemas.PostCreate, db: session = Depends(get_db), curren
     db.refresh(new_post)
     return new_post
 
+
 @router.get("/{post_id}", status_code= status.HTTP_200_OK, response_model = schemas.CreatePostResponse)
 def get_post(post_id: int, db: session = Depends(get_db)):
     post = db.query(models.Post).get(post_id)
@@ -50,6 +51,7 @@ def get_post(post_id: int, db: session = Depends(get_db)):
             detail={"error": f"Post with id {post_id} not found or has been deleted"}
         )
     return post
+
 
 @router.delete("/{post_id}", status_code = status.HTTP_200_OK, )
 def delete_post(post_id:int, db: session = Depends(get_db),current_user: models.User = Depends(oauth2.get_current_user)):
@@ -78,3 +80,4 @@ def update_post(post_id: int, post: schemas.PostCreate, db: session = Depends(ge
     updated_post.updated_at = datetime.now(UTC)
     db.commit()
     return updated_post
+

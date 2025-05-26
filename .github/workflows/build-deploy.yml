@@ -1,0 +1,19 @@
+name: Build and Deploy Code
+
+on: [push, pull_request]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling git repo
+        uses: actions/checkout@v2
+      - name: Install python version
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: update pip
+        uses: python -m pip install --upgrade pip
+      - name: install all dependencies
+        uses: pip install -r requirements.txt
+
