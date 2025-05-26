@@ -18,6 +18,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: install pytest and run tests
         run: |
-          pip install pytest
+          pip install httpx
+
           pytest
         
