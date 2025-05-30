@@ -6,7 +6,8 @@ from jose import JWTError, jwt
 from sqlalchemy.orm import Session
 from starlette import status
 
-from app import schemas, database, models
+from app import schemas, database
+from app.models import User
 from fastapi.security import OAuth2PasswordBearer
 from app.schemas import TokenData
 from .config import settings
@@ -47,6 +48,6 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
 
     token = verify_access_token(token, credentials_exception)
 
-    user = db.query(models.User).filter(models.User.id == token.id).first()
+    user = db.query(User).filter(User.id == token.id).first()
 
     return user

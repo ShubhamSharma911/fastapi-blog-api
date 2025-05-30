@@ -7,7 +7,7 @@ from datetime import datetime, UTC
 from typing import List
 from .. import utils
 from ..database import get_db
-
+from app.logger import logger
 router = APIRouter(
     prefix="/users",
     tags=["user"]
@@ -15,7 +15,12 @@ router = APIRouter(
 
 @router.post("", status_code= status.HTTP_201_CREATED, response_model=schemas.CreateUserResponse)
 def create_user(user: schemas.CreateUser, db: session = Depends(get_db)):
+
+    logger.info(f"Received request to create user with email: {user.email}")
+
     hashed_password = utils.hash_password(user.password)
+
+    logger.debug(f"Password hashed for email: {user.email}")
 
     new_user = models.User(**user.model_dump())
     new_user.password = hashed_password
@@ -24,8 +29,9 @@ def create_user(user: schemas.CreateUser, db: session = Depends(get_db)):
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
-    return new_user
 
+    logger.info(f"User created with ID: {new_user.id}, Email: {new_user.email}")
+    return new_user
 @router.get("", status_code= status.HTTP_200_OK, response_model=List[schemas.CreateUserResponse])
 def get_users(db: session = Depends(get_db)):
     users = db.query(models.User).filter(models.User.is_deleted == False).all()

@@ -1,0 +1,465 @@
+[2025-05-27 13:36:25,965] INFO in logging: Request: GET /
+[2025-05-27 13:36:26,766] INFO in logging: Request: GET /favicon.ico
+[2025-05-27 13:36:26,785] INFO in logging: Response: 404 for GET /favicon.ico
+[2025-05-27 13:41:42,934] INFO in logging: Request: GET /
+[2025-05-27 13:41:42,939] INFO in main: Root directory accessed: GET /
+[2025-05-27 13:41:42,941] INFO in logging: Response: 200 for GET /
+2025-05-27 15:33:10,740 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-27 15:33:10,767 - user.py - create_user - INFO - Received request to create user with email: shubham1234@gmail.com
+2025-05-27 15:34:08,101 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-27 15:34:08,114 - user.py - create_user - INFO - Received request to create user with email: hello@gmail.com
+2025-05-27 15:34:08,592 - user.py - create_user - INFO - User created with ID: 10, Email: hello@gmail.com
+2025-05-27 15:34:08,598 - logging.py - dispatch - INFO - Response: 201 for POST /users
+2025-05-28 13:46:46,159 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:46:46,168 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 13:46:53,221 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 13:46:54,131 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 13:47:05,991 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:47:06,017 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 13:51:16,619 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-28 13:51:16,654 - user.py - create_user - INFO - Received request to create user with email: google911@gmail.com
+2025-05-28 13:51:17,093 - user.py - create_user - INFO - User created with ID: 11, Email: google911@gmail.com
+2025-05-28 13:51:17,101 - logging.py - dispatch - INFO - Response: 201 for POST /users
+2025-05-28 13:51:47,114 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 13:51:47,569 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 13:51:55,674 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:51:55,680 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 13:57:09,707 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:57:09,740 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 13:57:30,584 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:57:30,591 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 13:59:09,643 - logging.py - dispatch - INFO - Request: POST /posts/
+2025-05-28 13:59:09,758 - logging.py - dispatch - INFO - Response: 201 for POST /posts/
+2025-05-28 13:59:58,276 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 13:59:58,280 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 14:02:08,520 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:02:08,533 - logging.py - dispatch - INFO - Response: 400 for POST /resumes/upload
+2025-05-28 14:03:15,088 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:04:12,275 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 14:04:12,697 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 14:04:23,745 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:40:18,216 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:40:18,260 - logging.py - dispatch - INFO - Response: 401 for POST /resumes/upload
+2025-05-28 14:40:26,783 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 14:40:27,360 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 14:40:30,418 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:41:00,639 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 14:41:01,317 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 14:41:05,906 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:56:18,600 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-28 14:56:18,640 - user.py - create_user - INFO - Received request to create user with email: google911@gmail.com
+2025-05-28 14:56:19,358 - user.py - create_user - INFO - User created with ID: 1, Email: google911@gmail.com
+2025-05-28 14:56:19,361 - logging.py - dispatch - INFO - Response: 201 for POST /users
+2025-05-28 14:56:24,329 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 14:56:24,746 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 14:56:30,565 - logging.py - dispatch - INFO - Request: GET /
+2025-05-28 14:56:30,572 - main.py - root - INFO - Root directory accessed: GET /
+2025-05-28 14:56:30,573 - logging.py - dispatch - INFO - Response: 200 for GET /
+2025-05-28 14:56:35,531 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 14:56:35,637 - logging.py - dispatch - INFO - Response: 201 for POST /resumes/upload
+2025-05-28 16:17:48,051 - logging.py - dispatch - INFO - Request: GET //download
+2025-05-28 16:17:48,058 - logging.py - dispatch - INFO - Response: 404 for GET //download
+2025-05-28 16:17:55,480 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 16:17:56,294 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 16:18:00,195 - logging.py - dispatch - INFO - Request: GET //download
+2025-05-28 16:18:00,200 - logging.py - dispatch - INFO - Response: 404 for GET //download
+2025-05-28 16:20:02,743 - logging.py - dispatch - INFO - Request: GET //download
+2025-05-28 16:20:02,745 - logging.py - dispatch - INFO - Response: 404 for GET //download
+2025-05-28 16:21:17,538 - logging.py - dispatch - INFO - Request: GET /download
+2025-05-28 16:21:17,539 - logging.py - dispatch - INFO - Response: 404 for GET /download
+2025-05-28 16:22:15,854 - logging.py - dispatch - INFO - Request: GET //resumes/download
+2025-05-28 16:22:15,855 - logging.py - dispatch - INFO - Response: 404 for GET //resumes/download
+2025-05-28 16:22:24,305 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 16:22:24,556 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download
+2025-05-28 17:13:08,558 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 17:13:08,575 - logging.py - dispatch - INFO - Response: 401 for GET /resumes/download
+2025-05-28 17:13:15,174 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 17:13:15,941 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 17:13:19,543 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 17:13:19,560 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download
+2025-05-28 17:14:47,501 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 17:14:47,504 - logging.py - dispatch - INFO - Response: 401 for GET /resumes/download
+2025-05-28 17:14:47,629 - logging.py - dispatch - INFO - Request: GET /favicon.ico
+2025-05-28 17:14:47,633 - logging.py - dispatch - INFO - Response: 404 for GET /favicon.ico
+2025-05-28 17:15:06,872 - logging.py - dispatch - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-28 17:15:06,873 - logging.py - dispatch - INFO - Response: 404 for GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-28 17:15:17,134 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 17:15:17,137 - logging.py - dispatch - INFO - Response: 401 for GET /resumes/download
+2025-05-28 17:15:17,258 - logging.py - dispatch - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-28 17:15:17,277 - logging.py - dispatch - INFO - Response: 404 for GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-28 17:19:54,312 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 17:19:54,325 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download
+2025-05-28 17:26:06,001 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-28 17:26:06,164 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download/1
+2025-05-28 17:39:27,025 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-28 17:39:27,153 - logging.py - dispatch - INFO - Response: 307 for GET /resumes/download/1
+2025-05-28 17:39:27,158 - logging.py - dispatch - INFO - Request: GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:27,159 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:30,430 - logging.py - dispatch - INFO - Request: GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:30,431 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:31,688 - logging.py - dispatch - INFO - Request: GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:31,689 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:32,732 - logging.py - dispatch - INFO - Request: GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:39:32,733 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/Worklog Update Policy.pdf
+2025-05-28 17:47:40,872 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-28 17:47:40,987 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download/1
+2025-05-28 17:48:15,987 - logging.py - dispatch - INFO - Request: GET /resumes/download/2
+2025-05-28 17:48:15,991 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download/2
+2025-05-28 18:13:32,354 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-28 18:13:32,461 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/download/1
+2025-05-28 18:59:21,059 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 18:59:21,726 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 18:59:35,511 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 18:59:35,526 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download
+2025-05-28 19:01:56,583 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 19:01:56,590 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download
+2025-05-28 19:02:15,180 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-28 19:02:15,200 - user.py - create_user - INFO - Received request to create user with email: google911@gmail.com
+2025-05-28 19:02:21,383 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-28 19:02:21,948 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-28 19:02:26,508 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 19:02:26,510 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download
+2025-05-28 19:05:52,161 - logging.py - dispatch - INFO - Request: GET /resumes/download
+2025-05-28 19:05:52,163 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download
+2025-05-28 19:08:55,545 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 19:08:55,553 - logging.py - dispatch - INFO - Response: 405 for POST /resumes/upload
+2025-05-28 19:15:53,332 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 19:15:53,339 - logging.py - dispatch - INFO - Response: 405 for POST /resumes/upload
+2025-05-28 19:17:58,849 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 19:17:58,851 - logging.py - dispatch - INFO - Response: 405 for POST /resumes/upload
+2025-05-28 19:25:20,537 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-28 19:25:20,539 - logging.py - dispatch - INFO - Response: 405 for POST /resumes/upload
+2025-05-29 10:59:32,420 - logging.py - dispatch - INFO - Request: POST /resumes/upload
+2025-05-29 10:59:32,426 - logging.py - dispatch - INFO - Response: 405 for POST /resumes/upload
+2025-05-29 11:35:03,230 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 11:35:04,088 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 11:35:11,420 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 11:35:11,627 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 11:35:52,209 - logging.py - dispatch - INFO - Request: GET /file/download
+2025-05-29 11:35:52,295 - logging.py - dispatch - INFO - Response: 200 for GET /file/download
+2025-05-29 11:36:16,835 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-29 11:36:16,864 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download/1
+2025-05-29 11:36:33,279 - logging.py - dispatch - INFO - Request: GET /file/download/1
+2025-05-29 11:36:33,280 - logging.py - dispatch - INFO - Response: 404 for GET /file/download/1
+2025-05-29 11:36:33,358 - logging.py - dispatch - INFO - Request: GET /favicon.ico
+2025-05-29 11:36:33,365 - logging.py - dispatch - INFO - Response: 404 for GET /favicon.ico
+2025-05-29 11:37:14,495 - logging.py - dispatch - INFO - Request: GET /file/download/2
+2025-05-29 11:37:14,501 - logging.py - dispatch - INFO - Response: 404 for GET /file/download/2
+2025-05-29 11:39:19,533 - logging.py - dispatch - INFO - Request: GET /file/download/1
+2025-05-29 11:39:19,673 - logging.py - dispatch - INFO - Response: 200 for GET /file/download/1
+2025-05-29 11:40:37,536 - logging.py - dispatch - INFO - Request: GET /resumes/2207ee0fc4604c8e8289376d8a783f5f_20250529113511.pdf
+2025-05-29 11:40:37,559 - logging.py - dispatch - INFO - Response: 200 for GET /resumes/2207ee0fc4604c8e8289376d8a783f5f_20250529113511.pdf
+2025-05-29 12:21:33,968 - logging.py - dispatch - INFO - Request: GET /file/download
+2025-05-29 12:21:33,983 - logging.py - dispatch - INFO - Response: 401 for GET /file/download
+2025-05-29 12:21:40,175 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 12:21:40,860 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 12:21:44,122 - logging.py - dispatch - INFO - Request: GET /file/download
+2025-05-29 12:21:44,145 - logging.py - dispatch - INFO - Response: 200 for GET /file/download
+2025-05-29 13:45:15,892 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 13:45:16,526 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 13:45:28,828 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 14:59:42,998 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 14:59:43,956 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 14:59:49,541 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 14:59:49,566 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-29 14:59:49,568 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/43456faf8ede4497b8c1a553ff3c3b90_20250529145949.pdf to disk at resumes/43456faf8ede4497b8c1a553ff3c3b90_20250529145949.pdf
+2025-05-29 14:59:49,568 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/43456faf8ede4497b8c1a553ff3c3b90_20250529145949.pdf
+2025-05-29 14:59:49,568 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 14:59:49,580 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 15:19:16,765 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 15:19:17,726 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 15:19:22,548 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 15:19:22,561 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-29 15:19:22,561 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/296ae068d62349d98f863ec08837c861_20250529151922.pdf to disk at resumes/296ae068d62349d98f863ec08837c861_20250529151922.pdf
+2025-05-29 15:19:22,561 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/296ae068d62349d98f863ec08837c861_20250529151922.pdf
+2025-05-29 15:19:22,562 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 15:19:22,564 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 15:21:08,862 - logging.py - dispatch - INFO - Request: GET /resumes/download/1
+2025-05-29 15:21:08,944 - logging.py - dispatch - INFO - Response: 404 for GET /resumes/download/1
+2025-05-29 15:21:15,065 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 15:21:15,068 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 15:21:15,694 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 15:21:15,750 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 15:21:43,096 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 15:21:43,104 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 15:21:46,960 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 15:21:46,969 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:02:45,765 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 16:02:45,772 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 16:02:46,383 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 16:02:46,413 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 16:03:31,266 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:03:31,283 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:03:43,443 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:03:43,447 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:03:44,994 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:03:44,996 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:06:48,475 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 16:06:48,476 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 16:06:48,620 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 16:06:48,648 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 16:14:06,980 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:14:07,018 - logging.py - dispatch - INFO - Response: 422 for POST /login
+2025-05-29 16:14:36,262 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:14:36,316 - logging.py - dispatch - INFO - Response: 422 for POST /login
+2025-05-29 16:14:43,315 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:14:43,908 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 16:15:34,024 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:15:34,033 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:16:37,827 - logging.py - dispatch - INFO - Request: POST /users
+2025-05-29 16:16:37,880 - user.py - create_user - INFO - Received request to create user with email: user@example.com
+2025-05-29 16:16:38,299 - user.py - create_user - INFO - User created with ID: 3, Email: user@example.com
+2025-05-29 16:16:38,303 - logging.py - dispatch - INFO - Response: 201 for POST /users
+2025-05-29 16:17:08,724 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:17:08,788 - logging.py - dispatch - INFO - Response: 422 for POST /login
+2025-05-29 16:20:44,164 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:20:44,167 - logging.py - dispatch - INFO - Response: 422 for POST /login
+2025-05-29 16:21:40,218 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-29 16:21:40,632 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-29 16:23:41,870 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:23:41,929 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:25:54,764 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 16:25:54,769 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 16:25:54,909 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 16:25:54,963 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 16:26:25,065 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:26:25,078 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:33:31,723 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 16:33:31,724 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 16:33:31,863 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 16:33:31,898 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 16:33:43,796 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:33:43,804 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload
+2025-05-29 16:34:16,456 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:34:16,570 - resume_service.py - upload_resume - WARNING - User 3 attempted to upload unsupported file format: 
+2025-05-29 16:34:16,576 - logging.py - dispatch - INFO - Response: 400 for POST /file/upload
+2025-05-29 16:34:37,728 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:34:37,748 - resume_service.py - upload_resume - INFO - User 3 uploading file: 10marksheet.pdf
+2025-05-29 16:34:37,749 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/e4c4a866983e497ba8d942d4725d4df5_20250529163437.pdf to disk at resumes/e4c4a866983e497ba8d942d4725d4df5_20250529163437.pdf
+2025-05-29 16:34:37,750 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/e4c4a866983e497ba8d942d4725d4df5_20250529163437.pdf
+2025-05-29 16:34:37,750 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 3
+2025-05-29 16:34:37,753 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 16:34:57,800 - resume_service.py - process_resume - INFO - User 3 successfully saved e4c4a866983e497ba8d942d4725d4df5_20250529163437.pdf at resumes/e4c4a866983e497ba8d942d4725d4df5_20250529163437.pdf
+2025-05-29 16:39:37,256 - logging.py - dispatch - INFO - Request: GET /file/upload
+2025-05-29 16:39:37,260 - logging.py - dispatch - INFO - Response: 405 for GET /file/upload
+2025-05-29 16:40:28,543 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:40:28,606 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload
+2025-05-29 16:41:50,050 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:41:50,052 - logging.py - dispatch - INFO - Response: 400 for POST /file/upload
+2025-05-29 16:42:13,208 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:42:13,209 - logging.py - dispatch - INFO - Response: 400 for POST /file/upload
+2025-05-29 16:53:55,175 - logging.py - dispatch - INFO - Request: GET /docs
+2025-05-29 16:53:55,179 - logging.py - dispatch - INFO - Response: 200 for GET /docs
+2025-05-29 16:53:55,403 - logging.py - dispatch - INFO - Request: GET /openapi.json
+2025-05-29 16:53:55,455 - logging.py - dispatch - INFO - Response: 200 for GET /openapi.json
+2025-05-29 16:54:05,186 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:54:05,201 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 16:54:05,205 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/4743f508ff4e4707bb8dd5c9d02e3d34_20250529165405.pdf to disk at resumes/4743f508ff4e4707bb8dd5c9d02e3d34_20250529165405.pdf
+2025-05-29 16:54:05,205 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/4743f508ff4e4707bb8dd5c9d02e3d34_20250529165405.pdf
+2025-05-29 16:54:05,205 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 16:54:05,223 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 16:54:36,354 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:54:36,357 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 16:54:36,358 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/f6820f0a9b894a8dbc20bec8d06055d0_20250529165436.pdf to disk at resumes/f6820f0a9b894a8dbc20bec8d06055d0_20250529165436.pdf
+2025-05-29 16:54:36,358 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/f6820f0a9b894a8dbc20bec8d06055d0_20250529165436.pdf
+2025-05-29 16:54:36,359 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 16:54:36,361 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 16:54:53,494 - logging.py - dispatch - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 16:54:53,495 - logging.py - dispatch - INFO - Response: 404 for GET /.well-known/appspecific/com.chrome.devtools.json
+2025-05-29 16:54:56,734 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:54:56,763 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 16:54:56,764 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/9a7a3bcde3a74e7087f961bf91252f5c_20250529165456.pdf to disk at resumes/9a7a3bcde3a74e7087f961bf91252f5c_20250529165456.pdf
+2025-05-29 16:54:56,765 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/9a7a3bcde3a74e7087f961bf91252f5c_20250529165456.pdf
+2025-05-29 16:54:56,765 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 16:54:56,769 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 16:55:00,861 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:55:00,867 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 16:55:00,869 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/c9c30a41358d400e8987c27444b5951f_20250529165500.pdf to disk at resumes/c9c30a41358d400e8987c27444b5951f_20250529165500.pdf
+2025-05-29 16:55:00,869 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/c9c30a41358d400e8987c27444b5951f_20250529165500.pdf
+2025-05-29 16:55:00,869 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 16:55:00,879 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 16:58:23,214 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 16:58:23,220 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 16:58:23,221 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/70745b8ef0c342dda414593b47abc2b9_20250529165823.pdf to disk at resumes/70745b8ef0c342dda414593b47abc2b9_20250529165823.pdf
+2025-05-29 16:58:23,221 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/70745b8ef0c342dda414593b47abc2b9_20250529165823.pdf
+2025-05-29 16:58:23,222 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 16:58:23,225 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 17:06:12,101 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:06:12,146 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload
+2025-05-29 17:06:48,378 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:06:48,392 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 17:06:48,394 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/6cdb0eebc075488d853ce9905ec0928e_20250529170648.pdf to disk at resumes/6cdb0eebc075488d853ce9905ec0928e_20250529170648.pdf
+2025-05-29 17:06:48,394 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/6cdb0eebc075488d853ce9905ec0928e_20250529170648.pdf
+2025-05-29 17:06:48,395 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 17:06:48,403 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 17:06:53,435 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:06:53,535 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload
+2025-05-29 17:07:15,848 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:07:15,919 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload
+2025-05-29 17:07:33,595 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:07:33,606 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 17:07:33,608 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/14aaa84120264051b62e739776d6834c_20250529170733.pdf to disk at resumes/14aaa84120264051b62e739776d6834c_20250529170733.pdf
+2025-05-29 17:07:33,608 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/14aaa84120264051b62e739776d6834c_20250529170733.pdf
+2025-05-29 17:07:33,608 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 17:07:33,610 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 17:08:31,032 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:08:31,038 - resume_service.py - upload_resume - INFO - User 1 uploading file: 10marksheet.pdf
+2025-05-29 17:08:31,039 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/38513ad01d9142d9b53fb00973edcbac_20250529170831.pdf to disk at resumes/38513ad01d9142d9b53fb00973edcbac_20250529170831.pdf
+2025-05-29 17:08:31,039 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/38513ad01d9142d9b53fb00973edcbac_20250529170831.pdf
+2025-05-29 17:08:31,039 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 17:08:31,045 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-29 17:09:22,925 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:09:23,008 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload
+2025-05-29 17:10:02,441 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-29 17:10:02,963 - resume_service.py - upload_resume - INFO - User 1 uploading file: LeaveStatement (7).pdf
+2025-05-29 17:10:02,964 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/4270b3a722a8494b89b38fff7fa0a4da_20250529171002.pdf to disk at resumes/4270b3a722a8494b89b38fff7fa0a4da_20250529171002.pdf
+2025-05-29 17:10:02,965 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/4270b3a722a8494b89b38fff7fa0a4da_20250529171002.pdf
+2025-05-29 17:10:02,965 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-29 17:10:02,968 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 11:49:58,625 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 11:49:59,157 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 11:50:04,031 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 11:50:04,048 - resume_service.py - upload_resume - INFO - User <app.models.User object at 0x10cf74f50> uploading file: Worklog Update Policy.pdf
+2025-05-30 11:58:15,024 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 11:58:15,125 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 11:58:15,176 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/4eb8f62af54e4ef4aef81a4511e5e404_20250530115815.pdf to disk at resumes/4eb8f62af54e4ef4aef81a4511e5e404_20250530115815.pdf
+2025-05-30 11:58:15,176 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/4eb8f62af54e4ef4aef81a4511e5e404_20250530115815.pdf
+2025-05-30 11:58:15,177 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 11:58:15,181 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 11:58:21,288 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:21,295 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:23,708 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:23,714 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:25,833 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:25,844 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:31,361 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:31,366 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:38,352 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:38,359 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:44,593 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:44,599 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:58:56,743 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:58:56,750 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:59:03,995 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:59:04,001 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:59:13,798 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:59:13,816 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 11:59:31,445 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 11:59:31,451 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:00:06,072 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:00:06,077 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:01:33,810 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 12:01:33,985 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 12:01:34,000 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/d058903b582243d8a43c18ea235ce8b7_20250530120133.pdf to disk at resumes/d058903b582243d8a43c18ea235ce8b7_20250530120133.pdf
+2025-05-30 12:01:34,000 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/d058903b582243d8a43c18ea235ce8b7_20250530120133.pdf
+2025-05-30 12:01:34,000 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 12:01:34,054 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 12:01:37,237 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:01:37,271 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:01:39,234 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:01:39,283 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:02:04,563 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:02:04,570 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:02:06,412 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:02:06,419 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:07:54,195 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 12:07:54,350 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 12:07:54,368 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/47d05eb8d1394e90be2974da9ce603b5_20250530120754.pdf to disk at resumes/47d05eb8d1394e90be2974da9ce603b5_20250530120754.pdf
+2025-05-30 12:07:54,368 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/47d05eb8d1394e90be2974da9ce603b5_20250530120754.pdf
+2025-05-30 12:07:54,369 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 12:07:54,379 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 12:07:57,700 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:07:57,721 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:08:28,653 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 12:08:28,920 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 12:08:28,936 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/e9e6c6f1071b40ee87393d2bb79a1b4a_20250530120828.pdf to disk at resumes/e9e6c6f1071b40ee87393d2bb79a1b4a_20250530120828.pdf
+2025-05-30 12:08:28,936 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/e9e6c6f1071b40ee87393d2bb79a1b4a_20250530120828.pdf
+2025-05-30 12:08:28,936 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 12:08:28,944 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 12:08:32,671 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:08:32,681 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:08:35,184 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:08:35,189 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:08:38,737 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:08:38,750 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:08:48,053 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:08:48,063 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:08:54,490 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:08:54,497 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:09:00,155 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:09:00,168 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:09:05,738 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:09:05,749 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:09:09,522 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:09:09,527 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:09:12,705 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:09:12,720 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:12:08,649 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:12:08,664 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:14:02,723 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 12:14:02,874 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 12:14:02,896 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/b5a3f2350bcb4207bbe1f1cedd670be7_20250530121402.pdf to disk at resumes/b5a3f2350bcb4207bbe1f1cedd670be7_20250530121402.pdf
+2025-05-30 12:14:02,896 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/b5a3f2350bcb4207bbe1f1cedd670be7_20250530121402.pdf
+2025-05-30 12:14:02,897 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 12:14:02,898 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 12:14:08,131 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:14:08,140 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:14:11,985 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:14:11,993 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:14:20,902 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:14:20,946 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:15:30,604 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 12:15:30,610 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 12:15:30,658 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/d0113d91f92b466cb1ffa7756d3dd2e6_20250530121530.pdf to disk at resumes/d0113d91f92b466cb1ffa7756d3dd2e6_20250530121530.pdf
+2025-05-30 12:15:30,658 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/d0113d91f92b466cb1ffa7756d3dd2e6_20250530121530.pdf
+2025-05-30 12:15:30,658 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 12:15:30,665 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload
+2025-05-30 12:15:34,403 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:15:34,412 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 12:15:41,773 - logging.py - dispatch - INFO - Request: GET /file/status
+2025-05-30 12:15:41,823 - logging.py - dispatch - INFO - Response: 200 for GET /file/status
+2025-05-30 15:01:31,978 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 15:01:32,698 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 15:01:36,490 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 15:01:36,512 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 15:01:36,531 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/30e5b50608d74e248cb23b9f65e6e0dc_20250530150136.pdf to disk at resumes/30e5b50608d74e248cb23b9f65e6e0dc_20250530150136.pdf
+2025-05-30 15:01:36,531 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/30e5b50608d74e248cb23b9f65e6e0dc_20250530150136.pdf
+2025-05-30 15:01:36,531 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 15:01:41,515 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 15:01:41,530 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 15:01:41,552 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/432a3f9d2886433c90b3339cca3e4642_20250530150141.pdf to disk at resumes/432a3f9d2886433c90b3339cca3e4642_20250530150141.pdf
+2025-05-30 15:01:41,552 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/432a3f9d2886433c90b3339cca3e4642_20250530150141.pdf
+2025-05-30 15:01:41,553 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 15:03:08,187 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 15:03:08,951 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 15:03:12,596 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 15:03:12,605 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 15:03:12,666 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/8999cdf14ef040538c83895076fd8d5e_20250530150312.pdf to disk at resumes/8999cdf14ef040538c83895076fd8d5e_20250530150312.pdf
+2025-05-30 15:03:12,666 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/8999cdf14ef040538c83895076fd8d5e_20250530150312.pdf
+2025-05-30 15:03:12,666 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 15:08:54,366 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 15:08:54,876 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 15:08:59,812 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 15:11:22,878 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 15:11:23,937 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 15:11:32,267 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 16:32:50,894 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 16:32:51,667 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 16:32:56,970 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 17:31:19,482 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 17:31:20,252 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 17:31:24,663 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 17:39:23,765 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 17:39:25,499 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 17:39:29,026 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 17:39:56,845 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 17:39:57,547 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 17:40:02,929 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 17:43:41,070 - logging.py - dispatch - INFO - Request: POST /login
+2025-05-30 17:43:42,096 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-05-30 17:43:45,428 - logging.py - dispatch - INFO - Request: POST /file/upload
+2025-05-30 17:43:45,443 - resume_service.py - upload_resume - INFO - User 1 uploading file: Worklog Update Policy.pdf
+2025-05-30 17:43:45,563 - resume_service.py - save_file_to_disk - INFO - Saved file: resumes/e2c714184e194451a1d48777f769ef61_20250530174345.pdf to disk
+2025-05-30 17:43:45,563 - resume_service.py - upload_resume - INFO - Saved file to disk at resumes/e2c714184e194451a1d48777f769ef61_20250530174345.pdf
+2025-05-30 17:43:45,563 - resume_service.py - upload_resume - INFO - Background task added to process resume for user 1
+2025-05-30 17:43:45,575 - logging.py - dispatch - INFO - Response: 201 for POST /file/upload

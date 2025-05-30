@@ -84,3 +84,11 @@ class TokenData(BaseModel):
 class Vote(BaseModel):
     post_id: int
     dir: conint(ge=0, le=1)
+
+
+#resumes
+
+class ResumeUploadResponse(BaseModel):
+    message: str
+    filename: Optional[str] = None
+    uploaded_at: Optional[datetime] = None
