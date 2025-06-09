@@ -10,3 +10,5 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         logger.info(f"Response: {response.status_code} for {request.method} {request.url.path}")
         return response
 
+
+

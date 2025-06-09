@@ -10,16 +10,14 @@ from fastapi import BackgroundTasks
 import asyncio
 from app import models
 from app.logger import logger
-from app.models import Resume
+from app.models import Resume, User
 from app.schemas import ResumeUploadResponse
 from app.status import Status
 from app.utilsp.notifications import notify_all_services
+from app.utils import extract_skills, read_pdf_text, extract_phone, extract_email, extract_name, extract_text
 
 UPLOAD_DIR = "resumes"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-
-
 
 async def save_file_to_disk(file: UploadFile) -> tuple[str, str]:
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
@@ -104,3 +102,46 @@ def get_resume_by_user(user_id: int, db: Session) -> Resume | None:
     Fetch the resume record for a given user.
     """
     return db.query(Resume).filter(Resume.user_id == user_id).first()
+
+import traceback
+
+
+async def parse_resumes_without_multiprocessing(skills: list[str], db):
+    start_time = time.time()
+    results = []
+
+    resumes = db.query(Resume).all()  # No need to await since it's now a sync function
+    loop = asyncio.get_event_loop()
+
+
+    for resume in resumes:
+        # Step 1: Read text from PDF asynchronously
+        text = read_pdf_text(resume.filepath)
+        if not text:
+            continue
+
+        # Step 2: Extract skills
+        matched_skills =  await loop.run_in_executor(None, read_pdf_text, resume.filepath)
+
+        # Step 3: If skills found, extract details
+        if matched_skills:
+            name = extract_name(text)
+            email = extract_email(text)
+            phone = extract_phone(text)
+            user = db.query(User).filter(User.id == resume.user_id).first()
+
+            results.append({
+                "user_id": resume.user_id,
+                "username": user.email if user else None,
+                "name": name,
+                "email": email,
+                "phone": phone,
+                "skills": matched_skills
+            })
+
+    end_time = time.time()
+    return {
+        "results": results,
+        "time_taken_seconds": round(end_time - start_time, 2)
+    }
+
