@@ -9,6 +9,3 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         response: Response = await call_next(request)
         logger.info(f"Response: {response.status_code} for {request.method} {request.url.path}")
         return response
-
-
-
