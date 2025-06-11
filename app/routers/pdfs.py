@@ -1,10 +1,11 @@
 from typing import List
-from fastapi import APIRouter, Depends, File, UploadFile, HTTPException
+from fastapi import APIRouter, Depends, File, UploadFile, HTTPException, Query, status
 from sqlalchemy.orm import Session
 
 from app import models, oauth2
 from app.database import get_db
-from app.services import multiple_pdfs_service
+from app.services import multiple_pdfs_service, skillsearch_service, skillsearch_multiprocessing_service
+from app.logger import logger
 
 router = APIRouter(
     prefix="/api/pdfs",
@@ -83,6 +84,25 @@ async def get_all_pdfs(
     pdfs = multiple_pdfs_service.get_all_pdfs(db, skip, limit)
     return pdfs
 
+
+@router.post("/search_skills", status_code=status.HTTP_200_OK)
+async def search_skills(
+    skills: list[str] = Query(..., description="List of skills to search for"),
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(oauth2.get_current_user)
+):
+    """
+    Search resumes for matching skills
+    """
+    logger.info(f"Received skill search request for skills: {skills}")
+    try:
+        results = await skillsearch_service.search_skills(skills, db)
+        logger.info(f"Skill search completed successfully. Found {len(results['results'])} matches")
+        return results
+    except Exception as e:
+        logger.error(f"Error in skill search: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.delete("/{pdf_id}")
 async def delete_pdf(
     pdf_id: int,
@@ -95,4 +115,37 @@ async def delete_pdf(
     success = multiple_pdfs_service.soft_delete_pdf(pdf_id, db)
     if not success:
         raise HTTPException(status_code=404, detail="PDF not found")
-    return {"message": "PDF deleted successfully"} 
+    return {"message": "PDF deleted successfully"}
+
+@router.post("/match-skills")
+async def match_skills(
+    skills: List[str],
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(oauth2.get_current_user)
+):
+    """
+    Match PDFs based on skills
+    """
+    try:
+        results = await multiple_pdfs_service.match_skills(skills, db)
+        return results
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/match_skills_multiprocessing", status_code=status.HTTP_200_OK)
+async def match_skills_multiprocessing(
+    skills: list[str] = Query(..., description="List of skills to search for"),
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(oauth2.get_current_user)
+):
+    """
+    Search resumes for matching skills using multiprocessing for faster results
+    """
+    logger.info(f"Received multiprocessing skill search request for skills: {skills}")
+    try:
+        results = await skillsearch_multiprocessing_service.search_skills_multiprocessing(skills, db)
+        logger.info(f"Multiprocessing skill search completed successfully. Found {len(results['results'])} matches")
+        return results
+    except Exception as e:
+        logger.error(f"Error in multiprocessing skill search: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
