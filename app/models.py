@@ -1,6 +1,3 @@
-
-
-
 from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey, DateTime, UniqueConstraint, func,Enum as SqlEnum
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
@@ -47,3 +44,12 @@ class Resume(Base):
     status = Column(SqlEnum(Status), nullable=False, server_default=Status.NOT_STARTED.value)
 
     __table_args__ = (UniqueConstraint('user_id', name='uq_user_resume'),)
+
+class PDF(Base):
+    __tablename__ = "pdfs"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text("NOW()"))
+    filename = Column(String, nullable=False)
+    filepath = Column(String, nullable=False)
+    is_deleted = Column(Boolean, nullable=False, server_default=text("False"))

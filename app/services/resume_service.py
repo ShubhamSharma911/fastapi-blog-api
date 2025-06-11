@@ -144,4 +144,3 @@ async def parse_resumes_without_multiprocessing(skills: list[str], db):
         "results": results,
         "time_taken_seconds": round(end_time - start_time, 2)
     }
-

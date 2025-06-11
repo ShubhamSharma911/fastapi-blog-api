@@ -2894,3 +2894,797 @@
 2025-06-04 17:01:26,723 - logging.py - dispatch - INFO - Response: 200 for POST /file/search-skills
 2025-06-04 17:01:28,096 - logging.py - dispatch - INFO - Request: POST /file/search-skills
 2025-06-04 17:01:29,594 - logging.py - dispatch - INFO - Response: 200 for POST /file/search-skills
+2025-06-10 18:00:29,978 - logging.py - dispatch - INFO - Request: POST /login
+2025-06-10 18:01:45,118 - logging.py - dispatch - INFO - Request: POST /login
+2025-06-10 18:01:45,267 - logging.py - dispatch - INFO - Response: 403 for POST /login
+2025-06-10 18:01:54,385 - logging.py - dispatch - INFO - Request: POST /users
+2025-06-10 18:01:54,412 - user.py - create_user - INFO - Received request to create user with email: google911@gmail.com
+2025-06-10 18:01:54,915 - user.py - create_user - INFO - User created with ID: 1, Email: google911@gmail.com
+2025-06-10 18:01:54,920 - logging.py - dispatch - INFO - Response: 201 for POST /users
+2025-06-10 18:01:59,995 - logging.py - dispatch - INFO - Request: POST /login
+2025-06-10 18:02:00,394 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-06-11 11:06:55,826 - logging.py - dispatch - INFO - Request: GET /upload-multiple
+2025-06-11 11:06:55,831 - logging.py - dispatch - INFO - Response: 404 for GET /upload-multiple
+2025-06-11 11:07:29,673 - logging.py - dispatch - INFO - Request: GET /upload/upload-multiple
+2025-06-11 11:07:29,675 - logging.py - dispatch - INFO - Response: 404 for GET /upload/upload-multiple
+2025-06-11 11:08:35,420 - logging.py - dispatch - INFO - Request: GET /file/upload-multiple
+2025-06-11 11:08:35,422 - logging.py - dispatch - INFO - Response: 405 for GET /file/upload-multiple
+2025-06-11 11:09:02,895 - logging.py - dispatch - INFO - Request: GET /file/upload-multiple
+2025-06-11 11:09:02,900 - logging.py - dispatch - INFO - Response: 405 for GET /file/upload-multiple
+2025-06-11 11:09:26,387 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:09:26,399 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload-multiple
+2025-06-11 11:09:38,148 - logging.py - dispatch - INFO - Request: POST /posts/
+2025-06-11 11:09:38,186 - logging.py - dispatch - INFO - Response: 401 for POST /posts/
+2025-06-11 11:09:45,338 - logging.py - dispatch - INFO - Request: POST /login
+2025-06-11 11:09:46,109 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-06-11 11:10:15,565 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:10:15,570 - logging.py - dispatch - INFO - Response: 401 for POST /file/upload-multiple
+2025-06-11 11:11:00,221 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:11:00,440 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload-multiple
+2025-06-11 11:11:37,438 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:11:37,455 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload-multiple
+2025-06-11 11:11:47,416 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:11:47,426 - logging.py - dispatch - INFO - Response: 422 for POST /file/upload-multiple
+2025-06-11 11:15:26,113 - logging.py - dispatch - INFO - Request: POST /file/upload-multiple
+2025-06-11 11:15:26,130 - resume_service.py - upload_resume - INFO - User 1 uploading file: resume1.pdf
+2025-06-11 11:22:20,307 - logging.py - dispatch - INFO - Request: POST /upload-multiple
+2025-06-11 11:22:20,311 - logging.py - dispatch - INFO - Response: 404 for POST /upload-multiple
+2025-06-11 11:28:19,166 - logging.py - dispatch - INFO - Request: POST /pdfs/upload-multiple
+2025-06-11 11:28:19,168 - logging.py - dispatch - INFO - Response: 405 for POST /pdfs/upload-multiple
+2025-06-11 11:31:01,337 - logging.py - dispatch - INFO - Request: POST /static/pdfs/upload-multiple
+2025-06-11 11:31:01,339 - logging.py - dispatch - INFO - Response: 404 for POST /static/pdfs/upload-multiple
+2025-06-11 11:31:14,590 - logging.py - dispatch - INFO - Request: POST /static/pdfs/upload-multiple
+2025-06-11 11:31:14,592 - logging.py - dispatch - INFO - Response: 404 for POST /static/pdfs/upload-multiple
+2025-06-11 11:48:12,296 - logging.py - dispatch - INFO - Request: POST /static/pdfs/upload-multiple
+2025-06-11 11:48:12,300 - logging.py - dispatch - INFO - Response: 404 for POST /static/pdfs/upload-multiple
+2025-06-11 11:48:39,688 - logging.py - dispatch - INFO - Request: POST /pdfs/upload-multiple
+2025-06-11 11:48:39,691 - logging.py - dispatch - INFO - Response: 405 for POST /pdfs/upload-multiple
+2025-06-11 11:49:06,423 - logging.py - dispatch - INFO - Request: POST /pdfs/upload-multiple
+2025-06-11 11:49:06,425 - logging.py - dispatch - INFO - Response: 405 for POST /pdfs/upload-multiple
+2025-06-11 11:51:05,853 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:51:05,898 - logging.py - dispatch - INFO - Response: 401 for POST /api/pdfs/upload-multiple
+2025-06-11 11:51:10,072 - logging.py - dispatch - INFO - Request: POST /login
+2025-06-11 11:51:10,720 - logging.py - dispatch - INFO - Response: 200 for POST /login
+2025-06-11 11:51:24,660 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:51:24,681 - logging.py - dispatch - INFO - Response: 422 for POST /api/pdfs/upload-multiple
+2025-06-11 11:51:51,937 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:51:51,946 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:51:51,966 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2bd73d5d6ad44c0bb2609eba9470b244_20250611115151.pdf to disk
+2025-06-11 11:51:52,039 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2bd73d5d6ad44c0bb2609eba9470b244_20250611115151.pdf at pdfs/2bd73d5d6ad44c0bb2609eba9470b244_20250611115151.pdf
+2025-06-11 11:51:52,040 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:51:52,048 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/00a3861f8f4b40c5855cffd254b6919a_20250611115152.pdf to disk
+2025-06-11 11:51:52,094 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 00a3861f8f4b40c5855cffd254b6919a_20250611115152.pdf at pdfs/00a3861f8f4b40c5855cffd254b6919a_20250611115152.pdf
+2025-06-11 11:51:52,098 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:10,180 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:10,196 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:10,198 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/344f97a5b9cc4643ad1d0e4627430cc5_20250611115210.pdf to disk
+2025-06-11 11:52:10,244 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 344f97a5b9cc4643ad1d0e4627430cc5_20250611115210.pdf at pdfs/344f97a5b9cc4643ad1d0e4627430cc5_20250611115210.pdf
+2025-06-11 11:52:10,245 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:10,246 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ab618f55648e445bbe1e90a0c319844d_20250611115210.pdf to disk
+2025-06-11 11:52:10,289 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ab618f55648e445bbe1e90a0c319844d_20250611115210.pdf at pdfs/ab618f55648e445bbe1e90a0c319844d_20250611115210.pdf
+2025-06-11 11:52:10,290 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:10,293 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d7da2b7b44444bf7b3585bbf2bd86849_20250611115210.pdf to disk
+2025-06-11 11:52:10,342 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d7da2b7b44444bf7b3585bbf2bd86849_20250611115210.pdf at pdfs/d7da2b7b44444bf7b3585bbf2bd86849_20250611115210.pdf
+2025-06-11 11:52:10,346 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:50,118 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:50,195 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:50,200 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d3b849fd4817435493d2c2315641dd85_20250611115250.pdf to disk
+2025-06-11 11:52:50,250 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d3b849fd4817435493d2c2315641dd85_20250611115250.pdf at pdfs/d3b849fd4817435493d2c2315641dd85_20250611115250.pdf
+2025-06-11 11:52:50,250 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:50,251 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ff04bfbd809f4a0f9529a255185e8600_20250611115250.pdf to disk
+2025-06-11 11:52:50,300 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ff04bfbd809f4a0f9529a255185e8600_20250611115250.pdf at pdfs/ff04bfbd809f4a0f9529a255185e8600_20250611115250.pdf
+2025-06-11 11:52:50,301 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:50,302 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/13aee842c9454dfabf9379558c94aec6_20250611115250.pdf to disk
+2025-06-11 11:52:50,355 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 13aee842c9454dfabf9379558c94aec6_20250611115250.pdf at pdfs/13aee842c9454dfabf9379558c94aec6_20250611115250.pdf
+2025-06-11 11:52:50,356 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:52:50,358 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6647c5fe16a94e1182377721fbd466ff_20250611115250.pdf to disk
+2025-06-11 11:52:50,400 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6647c5fe16a94e1182377721fbd466ff_20250611115250.pdf at pdfs/6647c5fe16a94e1182377721fbd466ff_20250611115250.pdf
+2025-06-11 11:52:50,401 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:52:50,402 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/987eea1b2121421dad5aae7290de412f_20250611115250.pdf to disk
+2025-06-11 11:52:50,450 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 987eea1b2121421dad5aae7290de412f_20250611115250.pdf at pdfs/987eea1b2121421dad5aae7290de412f_20250611115250.pdf
+2025-06-11 11:52:50,450 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:52:50,451 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5434cdb96df44c919f7a12221cb73ee1_20250611115250.pdf to disk
+2025-06-11 11:52:50,497 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5434cdb96df44c919f7a12221cb73ee1_20250611115250.pdf at pdfs/5434cdb96df44c919f7a12221cb73ee1_20250611115250.pdf
+2025-06-11 11:52:50,497 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:52:50,499 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/128f92e2dfde4fec9035caf6d551e651_20250611115250.pdf to disk
+2025-06-11 11:52:50,542 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 128f92e2dfde4fec9035caf6d551e651_20250611115250.pdf at pdfs/128f92e2dfde4fec9035caf6d551e651_20250611115250.pdf
+2025-06-11 11:52:50,542 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:52:50,544 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c926aa54c1bf4a9a8c7ffb42d5b5a4d4_20250611115250.pdf to disk
+2025-06-11 11:52:50,592 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c926aa54c1bf4a9a8c7ffb42d5b5a4d4_20250611115250.pdf at pdfs/c926aa54c1bf4a9a8c7ffb42d5b5a4d4_20250611115250.pdf
+2025-06-11 11:52:50,592 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:52:50,594 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b153854b189c41fea3fb43ca70c3eb90_20250611115250.pdf to disk
+2025-06-11 11:52:50,642 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b153854b189c41fea3fb43ca70c3eb90_20250611115250.pdf at pdfs/b153854b189c41fea3fb43ca70c3eb90_20250611115250.pdf
+2025-06-11 11:52:50,642 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:52:50,644 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/13ea8cbd831f4922834660554ee0343b_20250611115250.pdf to disk
+2025-06-11 11:52:50,699 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 13ea8cbd831f4922834660554ee0343b_20250611115250.pdf at pdfs/13ea8cbd831f4922834660554ee0343b_20250611115250.pdf
+2025-06-11 11:52:50,699 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:52:50,701 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/95103001284d4c36a1b503202f3d9b8a_20250611115250.pdf to disk
+2025-06-11 11:52:50,817 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 95103001284d4c36a1b503202f3d9b8a_20250611115250.pdf at pdfs/95103001284d4c36a1b503202f3d9b8a_20250611115250.pdf
+2025-06-11 11:52:50,817 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:52:50,821 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6fb7096bbdeb4c4ba2f6ca5d691f567e_20250611115250.pdf to disk
+2025-06-11 11:52:50,876 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6fb7096bbdeb4c4ba2f6ca5d691f567e_20250611115250.pdf at pdfs/6fb7096bbdeb4c4ba2f6ca5d691f567e_20250611115250.pdf
+2025-06-11 11:52:51,012 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:52,600 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:52,626 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:52,627 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/91ee334078ed45c6b6ac14f3c1491492_20250611115252.pdf to disk
+2025-06-11 11:52:52,685 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 91ee334078ed45c6b6ac14f3c1491492_20250611115252.pdf at pdfs/91ee334078ed45c6b6ac14f3c1491492_20250611115252.pdf
+2025-06-11 11:52:52,686 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:52,691 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7d4c8045f77344b7be550676bfc425e9_20250611115252.pdf to disk
+2025-06-11 11:52:52,735 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7d4c8045f77344b7be550676bfc425e9_20250611115252.pdf at pdfs/7d4c8045f77344b7be550676bfc425e9_20250611115252.pdf
+2025-06-11 11:52:52,735 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:52,737 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3a1983280a0c428291bf3020aeb8e995_20250611115252.pdf to disk
+2025-06-11 11:52:52,782 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3a1983280a0c428291bf3020aeb8e995_20250611115252.pdf at pdfs/3a1983280a0c428291bf3020aeb8e995_20250611115252.pdf
+2025-06-11 11:52:52,782 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:52:52,784 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c52b9aa1a89044ff80cd7543e8ac4575_20250611115252.pdf to disk
+2025-06-11 11:52:52,827 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c52b9aa1a89044ff80cd7543e8ac4575_20250611115252.pdf at pdfs/c52b9aa1a89044ff80cd7543e8ac4575_20250611115252.pdf
+2025-06-11 11:52:52,828 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:52:52,830 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3441f6f2494d48d8bcb480662f12fed6_20250611115252.pdf to disk
+2025-06-11 11:52:52,875 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3441f6f2494d48d8bcb480662f12fed6_20250611115252.pdf at pdfs/3441f6f2494d48d8bcb480662f12fed6_20250611115252.pdf
+2025-06-11 11:52:52,875 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:52:52,878 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a3c5b81e13034b09a459fc12747787ec_20250611115252.pdf to disk
+2025-06-11 11:52:52,933 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a3c5b81e13034b09a459fc12747787ec_20250611115252.pdf at pdfs/a3c5b81e13034b09a459fc12747787ec_20250611115252.pdf
+2025-06-11 11:52:52,934 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:52:52,935 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e2308e30fc374c4aa719cec6d7a50416_20250611115252.pdf to disk
+2025-06-11 11:52:52,981 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e2308e30fc374c4aa719cec6d7a50416_20250611115252.pdf at pdfs/e2308e30fc374c4aa719cec6d7a50416_20250611115252.pdf
+2025-06-11 11:52:52,981 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:52:52,982 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e1714809755f4f998f1e842b3a947a93_20250611115252.pdf to disk
+2025-06-11 11:52:53,028 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e1714809755f4f998f1e842b3a947a93_20250611115252.pdf at pdfs/e1714809755f4f998f1e842b3a947a93_20250611115252.pdf
+2025-06-11 11:52:53,028 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:52:53,030 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/54e58cbf941c4dc886d576593086d5b6_20250611115253.pdf to disk
+2025-06-11 11:52:53,075 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 54e58cbf941c4dc886d576593086d5b6_20250611115253.pdf at pdfs/54e58cbf941c4dc886d576593086d5b6_20250611115253.pdf
+2025-06-11 11:52:53,075 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:52:53,076 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/404aee50efb6486f80e672b887fbf580_20250611115253.pdf to disk
+2025-06-11 11:52:53,120 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 404aee50efb6486f80e672b887fbf580_20250611115253.pdf at pdfs/404aee50efb6486f80e672b887fbf580_20250611115253.pdf
+2025-06-11 11:52:53,122 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:52:53,125 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/dd442fd71fac45419e1e266f9fd9bae0_20250611115253.pdf to disk
+2025-06-11 11:52:53,167 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF dd442fd71fac45419e1e266f9fd9bae0_20250611115253.pdf at pdfs/dd442fd71fac45419e1e266f9fd9bae0_20250611115253.pdf
+2025-06-11 11:52:53,168 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:52:53,169 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9164f80b861248ab8dce4f6f933b8e72_20250611115253.pdf to disk
+2025-06-11 11:52:53,401 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9164f80b861248ab8dce4f6f933b8e72_20250611115253.pdf at pdfs/9164f80b861248ab8dce4f6f933b8e72_20250611115253.pdf
+2025-06-11 11:52:53,435 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:54,778 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:54,808 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:54,811 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7f6b4b4cafe14226820f5e106d45bcd7_20250611115254.pdf to disk
+2025-06-11 11:52:54,863 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7f6b4b4cafe14226820f5e106d45bcd7_20250611115254.pdf at pdfs/7f6b4b4cafe14226820f5e106d45bcd7_20250611115254.pdf
+2025-06-11 11:52:54,863 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:54,868 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5b772836db584c40a37a094fefe374a6_20250611115254.pdf to disk
+2025-06-11 11:52:54,916 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5b772836db584c40a37a094fefe374a6_20250611115254.pdf at pdfs/5b772836db584c40a37a094fefe374a6_20250611115254.pdf
+2025-06-11 11:52:54,916 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:54,917 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c99c4237119b4ee5921236e49db904ad_20250611115254.pdf to disk
+2025-06-11 11:52:54,964 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c99c4237119b4ee5921236e49db904ad_20250611115254.pdf at pdfs/c99c4237119b4ee5921236e49db904ad_20250611115254.pdf
+2025-06-11 11:52:54,964 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:52:54,965 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/88d694ca4d95426b8b6b6655208786aa_20250611115254.pdf to disk
+2025-06-11 11:52:55,008 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 88d694ca4d95426b8b6b6655208786aa_20250611115254.pdf at pdfs/88d694ca4d95426b8b6b6655208786aa_20250611115254.pdf
+2025-06-11 11:52:55,009 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:52:55,012 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e1cbb334b8d148dba3da242446b55916_20250611115255.pdf to disk
+2025-06-11 11:52:55,057 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e1cbb334b8d148dba3da242446b55916_20250611115255.pdf at pdfs/e1cbb334b8d148dba3da242446b55916_20250611115255.pdf
+2025-06-11 11:52:55,057 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:52:55,060 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/660b4770fb6d4e158736df1c3b7164de_20250611115255.pdf to disk
+2025-06-11 11:52:55,105 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 660b4770fb6d4e158736df1c3b7164de_20250611115255.pdf at pdfs/660b4770fb6d4e158736df1c3b7164de_20250611115255.pdf
+2025-06-11 11:52:55,105 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:52:55,108 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e6c9aa8e1c8240ce8d38e548d934232f_20250611115255.pdf to disk
+2025-06-11 11:52:55,151 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e6c9aa8e1c8240ce8d38e548d934232f_20250611115255.pdf at pdfs/e6c9aa8e1c8240ce8d38e548d934232f_20250611115255.pdf
+2025-06-11 11:52:55,152 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:52:55,153 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/58341bd2627847858f1a70846b19740f_20250611115255.pdf to disk
+2025-06-11 11:52:55,199 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 58341bd2627847858f1a70846b19740f_20250611115255.pdf at pdfs/58341bd2627847858f1a70846b19740f_20250611115255.pdf
+2025-06-11 11:52:55,199 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:52:55,201 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b1120e823b1544bfbba0fc443a1805e6_20250611115255.pdf to disk
+2025-06-11 11:52:55,240 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b1120e823b1544bfbba0fc443a1805e6_20250611115255.pdf at pdfs/b1120e823b1544bfbba0fc443a1805e6_20250611115255.pdf
+2025-06-11 11:52:55,241 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:52:55,244 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b04845fd7cab49b6bda2a8ed47943391_20250611115255.pdf to disk
+2025-06-11 11:52:55,251 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b04845fd7cab49b6bda2a8ed47943391_20250611115255.pdf at pdfs/b04845fd7cab49b6bda2a8ed47943391_20250611115255.pdf
+2025-06-11 11:52:55,252 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:52:55,258 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/596530e6c70b4f368f66a9c901004daa_20250611115255.pdf to disk
+2025-06-11 11:52:55,301 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 596530e6c70b4f368f66a9c901004daa_20250611115255.pdf at pdfs/596530e6c70b4f368f66a9c901004daa_20250611115255.pdf
+2025-06-11 11:52:55,301 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:52:55,302 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/187f47b5eba6413daa98f758e74428eb_20250611115255.pdf to disk
+2025-06-11 11:52:55,352 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 187f47b5eba6413daa98f758e74428eb_20250611115255.pdf at pdfs/187f47b5eba6413daa98f758e74428eb_20250611115255.pdf
+2025-06-11 11:52:55,380 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:56,847 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:56,895 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:56,900 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/eda0ad5c9b9d4cf1805b925169bffe5e_20250611115256.pdf to disk
+2025-06-11 11:52:56,946 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF eda0ad5c9b9d4cf1805b925169bffe5e_20250611115256.pdf at pdfs/eda0ad5c9b9d4cf1805b925169bffe5e_20250611115256.pdf
+2025-06-11 11:52:56,949 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:56,962 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5a2fc0ec2d7047df9a72e592f3594a28_20250611115256.pdf to disk
+2025-06-11 11:52:57,019 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5a2fc0ec2d7047df9a72e592f3594a28_20250611115256.pdf at pdfs/5a2fc0ec2d7047df9a72e592f3594a28_20250611115256.pdf
+2025-06-11 11:52:57,019 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:57,025 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3a866ba7c4504bc9aabcec64b23d8cbc_20250611115257.pdf to disk
+2025-06-11 11:52:57,074 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3a866ba7c4504bc9aabcec64b23d8cbc_20250611115257.pdf at pdfs/3a866ba7c4504bc9aabcec64b23d8cbc_20250611115257.pdf
+2025-06-11 11:52:57,074 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:52:57,076 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d97919b6f51c49fea685c3f518e30dbe_20250611115257.pdf to disk
+2025-06-11 11:52:57,106 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d97919b6f51c49fea685c3f518e30dbe_20250611115257.pdf at pdfs/d97919b6f51c49fea685c3f518e30dbe_20250611115257.pdf
+2025-06-11 11:52:57,107 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:52:57,109 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/aec05489aaf544d2b776278f296a47a2_20250611115257.pdf to disk
+2025-06-11 11:52:57,139 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF aec05489aaf544d2b776278f296a47a2_20250611115257.pdf at pdfs/aec05489aaf544d2b776278f296a47a2_20250611115257.pdf
+2025-06-11 11:52:57,139 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:52:57,142 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5444530be50447b4b42f46c7e5e51a9f_20250611115257.pdf to disk
+2025-06-11 11:52:57,169 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5444530be50447b4b42f46c7e5e51a9f_20250611115257.pdf at pdfs/5444530be50447b4b42f46c7e5e51a9f_20250611115257.pdf
+2025-06-11 11:52:57,169 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:52:57,174 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/19fc542af4b0498ca8f11df6a499f943_20250611115257.pdf to disk
+2025-06-11 11:52:57,212 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 19fc542af4b0498ca8f11df6a499f943_20250611115257.pdf at pdfs/19fc542af4b0498ca8f11df6a499f943_20250611115257.pdf
+2025-06-11 11:52:57,213 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:52:57,215 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/233dd0d9d7cb4634a0177678a1cefc7e_20250611115257.pdf to disk
+2025-06-11 11:52:57,243 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 233dd0d9d7cb4634a0177678a1cefc7e_20250611115257.pdf at pdfs/233dd0d9d7cb4634a0177678a1cefc7e_20250611115257.pdf
+2025-06-11 11:52:57,243 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:52:57,244 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/51c3de4f39fe409999051ff46633c84e_20250611115257.pdf to disk
+2025-06-11 11:52:57,274 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 51c3de4f39fe409999051ff46633c84e_20250611115257.pdf at pdfs/51c3de4f39fe409999051ff46633c84e_20250611115257.pdf
+2025-06-11 11:52:57,275 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:52:57,276 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0fd1269fccd34ee9a6a12e48d30101dd_20250611115257.pdf to disk
+2025-06-11 11:52:57,307 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0fd1269fccd34ee9a6a12e48d30101dd_20250611115257.pdf at pdfs/0fd1269fccd34ee9a6a12e48d30101dd_20250611115257.pdf
+2025-06-11 11:52:57,308 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:52:57,310 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6abe60ea5de84c77b414e478844dfe94_20250611115257.pdf to disk
+2025-06-11 11:52:57,340 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6abe60ea5de84c77b414e478844dfe94_20250611115257.pdf at pdfs/6abe60ea5de84c77b414e478844dfe94_20250611115257.pdf
+2025-06-11 11:52:57,340 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:52:57,342 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a49383883f824010ae0185ef75f7aa6f_20250611115257.pdf to disk
+2025-06-11 11:52:57,373 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a49383883f824010ae0185ef75f7aa6f_20250611115257.pdf at pdfs/a49383883f824010ae0185ef75f7aa6f_20250611115257.pdf
+2025-06-11 11:52:57,394 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:52:58,610 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:52:58,648 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:52:58,651 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a7d0c1e26d0b4da59cd47aa262a7f340_20250611115258.pdf to disk
+2025-06-11 11:52:58,695 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a7d0c1e26d0b4da59cd47aa262a7f340_20250611115258.pdf at pdfs/a7d0c1e26d0b4da59cd47aa262a7f340_20250611115258.pdf
+2025-06-11 11:52:58,695 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:58,712 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7f4f02e42776432dac610c1902f1fd8e_20250611115258.pdf to disk
+2025-06-11 11:52:58,760 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7f4f02e42776432dac610c1902f1fd8e_20250611115258.pdf at pdfs/7f4f02e42776432dac610c1902f1fd8e_20250611115258.pdf
+2025-06-11 11:52:58,760 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:52:58,763 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e8129a53ed0e4443b544f3fee511b62f_20250611115258.pdf to disk
+2025-06-11 11:52:59,036 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e8129a53ed0e4443b544f3fee511b62f_20250611115258.pdf at pdfs/e8129a53ed0e4443b544f3fee511b62f_20250611115258.pdf
+2025-06-11 11:52:59,036 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:52:59,041 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e4fa8bca2dfd4974803c04d64d58b0bf_20250611115259.pdf to disk
+2025-06-11 11:52:59,115 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e4fa8bca2dfd4974803c04d64d58b0bf_20250611115259.pdf at pdfs/e4fa8bca2dfd4974803c04d64d58b0bf_20250611115259.pdf
+2025-06-11 11:52:59,115 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:52:59,116 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2545fcd4ec2c431982728be9d8fb2c5c_20250611115259.pdf to disk
+2025-06-11 11:52:59,160 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2545fcd4ec2c431982728be9d8fb2c5c_20250611115259.pdf at pdfs/2545fcd4ec2c431982728be9d8fb2c5c_20250611115259.pdf
+2025-06-11 11:52:59,161 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:52:59,164 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/912fb0cd1a3349b3b979513a90caf1b8_20250611115259.pdf to disk
+2025-06-11 11:52:59,360 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 912fb0cd1a3349b3b979513a90caf1b8_20250611115259.pdf at pdfs/912fb0cd1a3349b3b979513a90caf1b8_20250611115259.pdf
+2025-06-11 11:52:59,360 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:52:59,362 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9d193de840a248c79c10e62982687c5b_20250611115259.pdf to disk
+2025-06-11 11:52:59,407 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9d193de840a248c79c10e62982687c5b_20250611115259.pdf at pdfs/9d193de840a248c79c10e62982687c5b_20250611115259.pdf
+2025-06-11 11:52:59,408 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:52:59,410 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ac5afdf0719e40f39f0cf974ae7217be_20250611115259.pdf to disk
+2025-06-11 11:52:59,578 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ac5afdf0719e40f39f0cf974ae7217be_20250611115259.pdf at pdfs/ac5afdf0719e40f39f0cf974ae7217be_20250611115259.pdf
+2025-06-11 11:52:59,579 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:52:59,582 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/279599a05aff440e91e66b8b5b5826c7_20250611115259.pdf to disk
+2025-06-11 11:52:59,632 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 279599a05aff440e91e66b8b5b5826c7_20250611115259.pdf at pdfs/279599a05aff440e91e66b8b5b5826c7_20250611115259.pdf
+2025-06-11 11:52:59,632 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:52:59,634 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/610bdcf8da7d488eaf43d01f0cf4ce81_20250611115259.pdf to disk
+2025-06-11 11:52:59,679 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 610bdcf8da7d488eaf43d01f0cf4ce81_20250611115259.pdf at pdfs/610bdcf8da7d488eaf43d01f0cf4ce81_20250611115259.pdf
+2025-06-11 11:52:59,679 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:52:59,682 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a53b8a8534d24f79a34280182b2de14e_20250611115259.pdf to disk
+2025-06-11 11:52:59,733 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a53b8a8534d24f79a34280182b2de14e_20250611115259.pdf at pdfs/a53b8a8534d24f79a34280182b2de14e_20250611115259.pdf
+2025-06-11 11:52:59,733 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:52:59,735 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/18986ab7d5bd48f7a23c900d7c39946a_20250611115259.pdf to disk
+2025-06-11 11:52:59,793 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 18986ab7d5bd48f7a23c900d7c39946a_20250611115259.pdf at pdfs/18986ab7d5bd48f7a23c900d7c39946a_20250611115259.pdf
+2025-06-11 11:52:59,851 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:01,490 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:01,530 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:01,533 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e873de6089cf433a93b57abbd2a070bd_20250611115301.pdf to disk
+2025-06-11 11:53:01,568 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e873de6089cf433a93b57abbd2a070bd_20250611115301.pdf at pdfs/e873de6089cf433a93b57abbd2a070bd_20250611115301.pdf
+2025-06-11 11:53:01,569 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:01,578 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f638854588ab4a5184df32bf375989d7_20250611115301.pdf to disk
+2025-06-11 11:53:01,629 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f638854588ab4a5184df32bf375989d7_20250611115301.pdf at pdfs/f638854588ab4a5184df32bf375989d7_20250611115301.pdf
+2025-06-11 11:53:01,630 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:01,632 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d43c3632328745ea930cc3333e9151e4_20250611115301.pdf to disk
+2025-06-11 11:53:01,661 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d43c3632328745ea930cc3333e9151e4_20250611115301.pdf at pdfs/d43c3632328745ea930cc3333e9151e4_20250611115301.pdf
+2025-06-11 11:53:01,662 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:01,664 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/aea7e2e7b8814070841ea940a8237981_20250611115301.pdf to disk
+2025-06-11 11:53:01,692 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF aea7e2e7b8814070841ea940a8237981_20250611115301.pdf at pdfs/aea7e2e7b8814070841ea940a8237981_20250611115301.pdf
+2025-06-11 11:53:01,693 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:01,695 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ded1b5163fd1448288cb14ab839500d5_20250611115301.pdf to disk
+2025-06-11 11:53:01,723 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ded1b5163fd1448288cb14ab839500d5_20250611115301.pdf at pdfs/ded1b5163fd1448288cb14ab839500d5_20250611115301.pdf
+2025-06-11 11:53:01,724 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:01,727 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e06e5d3a9ebf4a6faf291a2fcbe8df93_20250611115301.pdf to disk
+2025-06-11 11:53:01,756 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e06e5d3a9ebf4a6faf291a2fcbe8df93_20250611115301.pdf at pdfs/e06e5d3a9ebf4a6faf291a2fcbe8df93_20250611115301.pdf
+2025-06-11 11:53:01,756 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:01,759 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f29c2500d66c4cdcbea2161501249adb_20250611115301.pdf to disk
+2025-06-11 11:53:01,788 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f29c2500d66c4cdcbea2161501249adb_20250611115301.pdf at pdfs/f29c2500d66c4cdcbea2161501249adb_20250611115301.pdf
+2025-06-11 11:53:01,788 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:01,792 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3c51210b12a042a483db89865bd77883_20250611115301.pdf to disk
+2025-06-11 11:53:01,820 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3c51210b12a042a483db89865bd77883_20250611115301.pdf at pdfs/3c51210b12a042a483db89865bd77883_20250611115301.pdf
+2025-06-11 11:53:01,820 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:01,823 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/931d06f9f62a4d269cc40f4248de3c63_20250611115301.pdf to disk
+2025-06-11 11:53:01,851 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 931d06f9f62a4d269cc40f4248de3c63_20250611115301.pdf at pdfs/931d06f9f62a4d269cc40f4248de3c63_20250611115301.pdf
+2025-06-11 11:53:01,851 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:01,853 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/77e1bdb289d442f1bc74ed2c3a534ba6_20250611115301.pdf to disk
+2025-06-11 11:53:01,883 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 77e1bdb289d442f1bc74ed2c3a534ba6_20250611115301.pdf at pdfs/77e1bdb289d442f1bc74ed2c3a534ba6_20250611115301.pdf
+2025-06-11 11:53:01,883 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:01,885 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a3f537ec17b8444e93747ef24404de9e_20250611115301.pdf to disk
+2025-06-11 11:53:01,913 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a3f537ec17b8444e93747ef24404de9e_20250611115301.pdf at pdfs/a3f537ec17b8444e93747ef24404de9e_20250611115301.pdf
+2025-06-11 11:53:01,913 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:01,917 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a64b50e1ef5045758c99282a13035606_20250611115301.pdf to disk
+2025-06-11 11:53:01,946 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a64b50e1ef5045758c99282a13035606_20250611115301.pdf at pdfs/a64b50e1ef5045758c99282a13035606_20250611115301.pdf
+2025-06-11 11:53:01,967 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:03,625 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:03,656 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:03,658 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f70ee25afb2b4378814a0ab2a8f4a35d_20250611115303.pdf to disk
+2025-06-11 11:53:03,686 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f70ee25afb2b4378814a0ab2a8f4a35d_20250611115303.pdf at pdfs/f70ee25afb2b4378814a0ab2a8f4a35d_20250611115303.pdf
+2025-06-11 11:53:03,686 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:03,689 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0b25de582b844e2080c99edbb8dc2900_20250611115303.pdf to disk
+2025-06-11 11:53:03,719 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0b25de582b844e2080c99edbb8dc2900_20250611115303.pdf at pdfs/0b25de582b844e2080c99edbb8dc2900_20250611115303.pdf
+2025-06-11 11:53:03,720 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:03,721 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/00ca46c9d7d8448995d443ae5e50222a_20250611115303.pdf to disk
+2025-06-11 11:53:03,767 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 00ca46c9d7d8448995d443ae5e50222a_20250611115303.pdf at pdfs/00ca46c9d7d8448995d443ae5e50222a_20250611115303.pdf
+2025-06-11 11:53:03,767 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:03,768 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5bc62e730307454da19e7ad244e07575_20250611115303.pdf to disk
+2025-06-11 11:53:03,808 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5bc62e730307454da19e7ad244e07575_20250611115303.pdf at pdfs/5bc62e730307454da19e7ad244e07575_20250611115303.pdf
+2025-06-11 11:53:03,809 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:03,811 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/097e7ab3f628483e8acbd27fbcd1bd06_20250611115303.pdf to disk
+2025-06-11 11:53:03,858 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 097e7ab3f628483e8acbd27fbcd1bd06_20250611115303.pdf at pdfs/097e7ab3f628483e8acbd27fbcd1bd06_20250611115303.pdf
+2025-06-11 11:53:03,859 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:03,866 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/4b00ba75bc5440f5bdad2b1a3ccbff6d_20250611115303.pdf to disk
+2025-06-11 11:53:03,911 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 4b00ba75bc5440f5bdad2b1a3ccbff6d_20250611115303.pdf at pdfs/4b00ba75bc5440f5bdad2b1a3ccbff6d_20250611115303.pdf
+2025-06-11 11:53:03,913 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:03,915 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/82d89eac64a646fb8ecfe3f52816ac0b_20250611115303.pdf to disk
+2025-06-11 11:53:03,960 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 82d89eac64a646fb8ecfe3f52816ac0b_20250611115303.pdf at pdfs/82d89eac64a646fb8ecfe3f52816ac0b_20250611115303.pdf
+2025-06-11 11:53:03,962 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:03,964 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/732593e2e7be45439da1c254a9788a11_20250611115303.pdf to disk
+2025-06-11 11:53:04,013 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 732593e2e7be45439da1c254a9788a11_20250611115303.pdf at pdfs/732593e2e7be45439da1c254a9788a11_20250611115303.pdf
+2025-06-11 11:53:04,013 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:04,016 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/68c12bd51f6b4cfcb07e1f42440197bf_20250611115304.pdf to disk
+2025-06-11 11:53:04,050 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 68c12bd51f6b4cfcb07e1f42440197bf_20250611115304.pdf at pdfs/68c12bd51f6b4cfcb07e1f42440197bf_20250611115304.pdf
+2025-06-11 11:53:04,050 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:04,052 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a9a05de99ce74d95934782fa6dad9676_20250611115304.pdf to disk
+2025-06-11 11:53:04,082 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a9a05de99ce74d95934782fa6dad9676_20250611115304.pdf at pdfs/a9a05de99ce74d95934782fa6dad9676_20250611115304.pdf
+2025-06-11 11:53:04,082 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:04,084 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5dfb274d0bc84368816089e83e4da89a_20250611115304.pdf to disk
+2025-06-11 11:53:04,111 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5dfb274d0bc84368816089e83e4da89a_20250611115304.pdf at pdfs/5dfb274d0bc84368816089e83e4da89a_20250611115304.pdf
+2025-06-11 11:53:04,111 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:04,113 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/4a5b459d41be41bdbe30632692e34aea_20250611115304.pdf to disk
+2025-06-11 11:53:04,142 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 4a5b459d41be41bdbe30632692e34aea_20250611115304.pdf at pdfs/4a5b459d41be41bdbe30632692e34aea_20250611115304.pdf
+2025-06-11 11:53:04,172 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:05,648 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:05,704 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:05,707 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/281d9b9844a74f25bcef4ae28e88e993_20250611115305.pdf to disk
+2025-06-11 11:53:05,752 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 281d9b9844a74f25bcef4ae28e88e993_20250611115305.pdf at pdfs/281d9b9844a74f25bcef4ae28e88e993_20250611115305.pdf
+2025-06-11 11:53:05,752 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:05,760 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a5c6d077174c4139b9665c59356cd898_20250611115305.pdf to disk
+2025-06-11 11:53:05,812 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a5c6d077174c4139b9665c59356cd898_20250611115305.pdf at pdfs/a5c6d077174c4139b9665c59356cd898_20250611115305.pdf
+2025-06-11 11:53:05,816 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:05,818 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ddb0525058d641fdb1c99f3d3aae855f_20250611115305.pdf to disk
+2025-06-11 11:53:05,863 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ddb0525058d641fdb1c99f3d3aae855f_20250611115305.pdf at pdfs/ddb0525058d641fdb1c99f3d3aae855f_20250611115305.pdf
+2025-06-11 11:53:05,864 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:05,867 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/cc92c995b2aa4103a4e3b22aea8a7742_20250611115305.pdf to disk
+2025-06-11 11:53:05,910 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF cc92c995b2aa4103a4e3b22aea8a7742_20250611115305.pdf at pdfs/cc92c995b2aa4103a4e3b22aea8a7742_20250611115305.pdf
+2025-06-11 11:53:05,911 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:05,912 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/4bcbb3a7fd4c4e1eac01a694062ebc36_20250611115305.pdf to disk
+2025-06-11 11:53:05,959 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 4bcbb3a7fd4c4e1eac01a694062ebc36_20250611115305.pdf at pdfs/4bcbb3a7fd4c4e1eac01a694062ebc36_20250611115305.pdf
+2025-06-11 11:53:05,959 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:05,960 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/eb8bf623d08c4da1aea268ec1afb3f49_20250611115305.pdf to disk
+2025-06-11 11:53:05,995 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF eb8bf623d08c4da1aea268ec1afb3f49_20250611115305.pdf at pdfs/eb8bf623d08c4da1aea268ec1afb3f49_20250611115305.pdf
+2025-06-11 11:53:05,995 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:05,997 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b42fafb5334846878756867efc62da9d_20250611115305.pdf to disk
+2025-06-11 11:53:06,025 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b42fafb5334846878756867efc62da9d_20250611115305.pdf at pdfs/b42fafb5334846878756867efc62da9d_20250611115305.pdf
+2025-06-11 11:53:06,025 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:06,028 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f8a3e1bd145948308fe8db02b32ed9a5_20250611115306.pdf to disk
+2025-06-11 11:53:06,061 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f8a3e1bd145948308fe8db02b32ed9a5_20250611115306.pdf at pdfs/f8a3e1bd145948308fe8db02b32ed9a5_20250611115306.pdf
+2025-06-11 11:53:06,062 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:06,063 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5c7efde965fa4c2b946fd8fe83c96651_20250611115306.pdf to disk
+2025-06-11 11:53:06,092 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5c7efde965fa4c2b946fd8fe83c96651_20250611115306.pdf at pdfs/5c7efde965fa4c2b946fd8fe83c96651_20250611115306.pdf
+2025-06-11 11:53:06,092 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:06,094 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/829cfa02725f488b80611ab9b5432920_20250611115306.pdf to disk
+2025-06-11 11:53:06,124 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 829cfa02725f488b80611ab9b5432920_20250611115306.pdf at pdfs/829cfa02725f488b80611ab9b5432920_20250611115306.pdf
+2025-06-11 11:53:06,124 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:06,126 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/4920f247a9794254bf5975eede8c4883_20250611115306.pdf to disk
+2025-06-11 11:53:06,157 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 4920f247a9794254bf5975eede8c4883_20250611115306.pdf at pdfs/4920f247a9794254bf5975eede8c4883_20250611115306.pdf
+2025-06-11 11:53:06,158 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:06,160 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ba759edb82f04403be88c5139cea76f8_20250611115306.pdf to disk
+2025-06-11 11:53:06,194 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ba759edb82f04403be88c5139cea76f8_20250611115306.pdf at pdfs/ba759edb82f04403be88c5139cea76f8_20250611115306.pdf
+2025-06-11 11:53:06,223 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:07,586 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:07,735 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:07,737 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/65b6bfea65fb4ce6bc11cda0d3f6dc50_20250611115307.pdf to disk
+2025-06-11 11:53:07,790 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 65b6bfea65fb4ce6bc11cda0d3f6dc50_20250611115307.pdf at pdfs/65b6bfea65fb4ce6bc11cda0d3f6dc50_20250611115307.pdf
+2025-06-11 11:53:07,790 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:07,792 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bf6498b20afb433da88154bc6af298fb_20250611115307.pdf to disk
+2025-06-11 11:53:08,032 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bf6498b20afb433da88154bc6af298fb_20250611115307.pdf at pdfs/bf6498b20afb433da88154bc6af298fb_20250611115307.pdf
+2025-06-11 11:53:08,032 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:08,034 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/05e950b688434d449c27d2af2aefe194_20250611115308.pdf to disk
+2025-06-11 11:53:08,075 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 05e950b688434d449c27d2af2aefe194_20250611115308.pdf at pdfs/05e950b688434d449c27d2af2aefe194_20250611115308.pdf
+2025-06-11 11:53:08,075 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:08,077 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b7ba0f4c63db45f6b76222bce7a4821e_20250611115308.pdf to disk
+2025-06-11 11:53:08,120 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b7ba0f4c63db45f6b76222bce7a4821e_20250611115308.pdf at pdfs/b7ba0f4c63db45f6b76222bce7a4821e_20250611115308.pdf
+2025-06-11 11:53:08,120 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:08,124 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9959b2e6032f47e099b2e1222a26b882_20250611115308.pdf to disk
+2025-06-11 11:53:08,169 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9959b2e6032f47e099b2e1222a26b882_20250611115308.pdf at pdfs/9959b2e6032f47e099b2e1222a26b882_20250611115308.pdf
+2025-06-11 11:53:08,169 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:08,172 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/77c9c8cf14e94b8993f7376425c8fdb3_20250611115308.pdf to disk
+2025-06-11 11:53:08,217 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 77c9c8cf14e94b8993f7376425c8fdb3_20250611115308.pdf at pdfs/77c9c8cf14e94b8993f7376425c8fdb3_20250611115308.pdf
+2025-06-11 11:53:08,217 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:08,218 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2aa960477dcd4cf1ba3c43b5cc6999a8_20250611115308.pdf to disk
+2025-06-11 11:53:08,265 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2aa960477dcd4cf1ba3c43b5cc6999a8_20250611115308.pdf at pdfs/2aa960477dcd4cf1ba3c43b5cc6999a8_20250611115308.pdf
+2025-06-11 11:53:08,266 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:08,268 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6e912237ca004b77a1cd048d01ef06ed_20250611115308.pdf to disk
+2025-06-11 11:53:08,297 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6e912237ca004b77a1cd048d01ef06ed_20250611115308.pdf at pdfs/6e912237ca004b77a1cd048d01ef06ed_20250611115308.pdf
+2025-06-11 11:53:08,297 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:08,300 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d23aa9f2fde64b48855e59c0bbbb634a_20250611115308.pdf to disk
+2025-06-11 11:53:08,328 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d23aa9f2fde64b48855e59c0bbbb634a_20250611115308.pdf at pdfs/d23aa9f2fde64b48855e59c0bbbb634a_20250611115308.pdf
+2025-06-11 11:53:08,328 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:08,330 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d04ce7f249404d389ce2d1df1b21f1af_20250611115308.pdf to disk
+2025-06-11 11:53:08,414 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d04ce7f249404d389ce2d1df1b21f1af_20250611115308.pdf at pdfs/d04ce7f249404d389ce2d1df1b21f1af_20250611115308.pdf
+2025-06-11 11:53:08,414 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:08,436 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9af22fe0fc064c5890b6fa6d88563a5f_20250611115308.pdf to disk
+2025-06-11 11:53:08,499 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9af22fe0fc064c5890b6fa6d88563a5f_20250611115308.pdf at pdfs/9af22fe0fc064c5890b6fa6d88563a5f_20250611115308.pdf
+2025-06-11 11:53:08,499 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:08,502 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ba6086144b86492e93896fc3c2002315_20250611115308.pdf to disk
+2025-06-11 11:53:08,535 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ba6086144b86492e93896fc3c2002315_20250611115308.pdf at pdfs/ba6086144b86492e93896fc3c2002315_20250611115308.pdf
+2025-06-11 11:53:08,561 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:09,787 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:09,828 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:09,830 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/18c8b35d0ade41a3b0a9141e4793ce1e_20250611115309.pdf to disk
+2025-06-11 11:53:09,877 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 18c8b35d0ade41a3b0a9141e4793ce1e_20250611115309.pdf at pdfs/18c8b35d0ade41a3b0a9141e4793ce1e_20250611115309.pdf
+2025-06-11 11:53:09,877 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:09,879 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7de73216128e4b2483d4ef577ccd7bd9_20250611115309.pdf to disk
+2025-06-11 11:53:09,929 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7de73216128e4b2483d4ef577ccd7bd9_20250611115309.pdf at pdfs/7de73216128e4b2483d4ef577ccd7bd9_20250611115309.pdf
+2025-06-11 11:53:09,929 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:09,934 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2d5ec4b75ea74f1b958ca8861cb1c096_20250611115309.pdf to disk
+2025-06-11 11:53:09,962 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2d5ec4b75ea74f1b958ca8861cb1c096_20250611115309.pdf at pdfs/2d5ec4b75ea74f1b958ca8861cb1c096_20250611115309.pdf
+2025-06-11 11:53:09,962 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:09,964 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/692f3a5937df4f72a42b4864bc11d12c_20250611115309.pdf to disk
+2025-06-11 11:53:09,994 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 692f3a5937df4f72a42b4864bc11d12c_20250611115309.pdf at pdfs/692f3a5937df4f72a42b4864bc11d12c_20250611115309.pdf
+2025-06-11 11:53:09,994 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:09,997 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e0a23dcd7eb843e6921c9b487bfbf90c_20250611115309.pdf to disk
+2025-06-11 11:53:10,029 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e0a23dcd7eb843e6921c9b487bfbf90c_20250611115309.pdf at pdfs/e0a23dcd7eb843e6921c9b487bfbf90c_20250611115309.pdf
+2025-06-11 11:53:10,029 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:10,032 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b03c5e74bbf04af696d1a1b8dfdb4679_20250611115310.pdf to disk
+2025-06-11 11:53:10,060 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b03c5e74bbf04af696d1a1b8dfdb4679_20250611115310.pdf at pdfs/b03c5e74bbf04af696d1a1b8dfdb4679_20250611115310.pdf
+2025-06-11 11:53:10,060 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:10,063 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/155600c574ba4ce2b30e14c5d53b6285_20250611115310.pdf to disk
+2025-06-11 11:53:10,093 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 155600c574ba4ce2b30e14c5d53b6285_20250611115310.pdf at pdfs/155600c574ba4ce2b30e14c5d53b6285_20250611115310.pdf
+2025-06-11 11:53:10,094 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:10,095 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3cf0d912cbd24efd8473d45540b0dd81_20250611115310.pdf to disk
+2025-06-11 11:53:10,125 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3cf0d912cbd24efd8473d45540b0dd81_20250611115310.pdf at pdfs/3cf0d912cbd24efd8473d45540b0dd81_20250611115310.pdf
+2025-06-11 11:53:10,126 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:10,128 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f60e8b41c1a346fc938b47fad3a45811_20250611115310.pdf to disk
+2025-06-11 11:53:10,158 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f60e8b41c1a346fc938b47fad3a45811_20250611115310.pdf at pdfs/f60e8b41c1a346fc938b47fad3a45811_20250611115310.pdf
+2025-06-11 11:53:10,159 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:10,161 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e5198060d0d44a03b86cc7c69d6b0a89_20250611115310.pdf to disk
+2025-06-11 11:53:10,190 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e5198060d0d44a03b86cc7c69d6b0a89_20250611115310.pdf at pdfs/e5198060d0d44a03b86cc7c69d6b0a89_20250611115310.pdf
+2025-06-11 11:53:10,191 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:10,193 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/176b7ed0b5bc46b78d5b07d8bf5e4f60_20250611115310.pdf to disk
+2025-06-11 11:53:10,221 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 176b7ed0b5bc46b78d5b07d8bf5e4f60_20250611115310.pdf at pdfs/176b7ed0b5bc46b78d5b07d8bf5e4f60_20250611115310.pdf
+2025-06-11 11:53:10,221 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:10,225 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e9cb864008d8487ba6e15850952e96a7_20250611115310.pdf to disk
+2025-06-11 11:53:10,253 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e9cb864008d8487ba6e15850952e96a7_20250611115310.pdf at pdfs/e9cb864008d8487ba6e15850952e96a7_20250611115310.pdf
+2025-06-11 11:53:10,311 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:12,233 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:12,263 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:12,268 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bfcde390fad7433da8731df9170d3d79_20250611115312.pdf to disk
+2025-06-11 11:53:12,318 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bfcde390fad7433da8731df9170d3d79_20250611115312.pdf at pdfs/bfcde390fad7433da8731df9170d3d79_20250611115312.pdf
+2025-06-11 11:53:12,318 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:12,320 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e47bb895ff8e42dfbf78d0c81c40b023_20250611115312.pdf to disk
+2025-06-11 11:53:12,364 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e47bb895ff8e42dfbf78d0c81c40b023_20250611115312.pdf at pdfs/e47bb895ff8e42dfbf78d0c81c40b023_20250611115312.pdf
+2025-06-11 11:53:12,364 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:12,368 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/27fc64e3a747494c850fd21973521ee4_20250611115312.pdf to disk
+2025-06-11 11:53:12,417 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 27fc64e3a747494c850fd21973521ee4_20250611115312.pdf at pdfs/27fc64e3a747494c850fd21973521ee4_20250611115312.pdf
+2025-06-11 11:53:12,417 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:12,418 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/5e36e7433fe743f1822982d901ab81c5_20250611115312.pdf to disk
+2025-06-11 11:53:12,462 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 5e36e7433fe743f1822982d901ab81c5_20250611115312.pdf at pdfs/5e36e7433fe743f1822982d901ab81c5_20250611115312.pdf
+2025-06-11 11:53:12,462 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:12,463 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/09faa721f5664012ae08034dc12bcd27_20250611115312.pdf to disk
+2025-06-11 11:53:12,492 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 09faa721f5664012ae08034dc12bcd27_20250611115312.pdf at pdfs/09faa721f5664012ae08034dc12bcd27_20250611115312.pdf
+2025-06-11 11:53:12,492 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:12,495 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e9bbd79430f944388d9f1de086fb6c1c_20250611115312.pdf to disk
+2025-06-11 11:53:12,524 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e9bbd79430f944388d9f1de086fb6c1c_20250611115312.pdf at pdfs/e9bbd79430f944388d9f1de086fb6c1c_20250611115312.pdf
+2025-06-11 11:53:12,525 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:12,528 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/de9f72c8e26b490eb4559873dc39f4fc_20250611115312.pdf to disk
+2025-06-11 11:53:12,562 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF de9f72c8e26b490eb4559873dc39f4fc_20250611115312.pdf at pdfs/de9f72c8e26b490eb4559873dc39f4fc_20250611115312.pdf
+2025-06-11 11:53:12,562 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:12,566 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9513db715fcc40669293525b6b9fe4ba_20250611115312.pdf to disk
+2025-06-11 11:53:12,612 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9513db715fcc40669293525b6b9fe4ba_20250611115312.pdf at pdfs/9513db715fcc40669293525b6b9fe4ba_20250611115312.pdf
+2025-06-11 11:53:12,612 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:12,614 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3f78a4f6aa194a76985034ebb42d37f5_20250611115312.pdf to disk
+2025-06-11 11:53:12,659 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3f78a4f6aa194a76985034ebb42d37f5_20250611115312.pdf at pdfs/3f78a4f6aa194a76985034ebb42d37f5_20250611115312.pdf
+2025-06-11 11:53:12,660 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:12,661 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7052097f014d40eba7972a887a97b2e9_20250611115312.pdf to disk
+2025-06-11 11:53:12,704 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7052097f014d40eba7972a887a97b2e9_20250611115312.pdf at pdfs/7052097f014d40eba7972a887a97b2e9_20250611115312.pdf
+2025-06-11 11:53:12,704 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:12,707 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f17d2a7128c644e89b969fe4f80a2f63_20250611115312.pdf to disk
+2025-06-11 11:53:12,752 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f17d2a7128c644e89b969fe4f80a2f63_20250611115312.pdf at pdfs/f17d2a7128c644e89b969fe4f80a2f63_20250611115312.pdf
+2025-06-11 11:53:12,752 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:12,754 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3be3f0f8b8924e18a4101d892285fddc_20250611115312.pdf to disk
+2025-06-11 11:53:12,793 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3be3f0f8b8924e18a4101d892285fddc_20250611115312.pdf at pdfs/3be3f0f8b8924e18a4101d892285fddc_20250611115312.pdf
+2025-06-11 11:53:12,827 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:14,346 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:14,400 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:14,403 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/809c7fe5731c40ffb5f663d7e2472638_20250611115314.pdf to disk
+2025-06-11 11:53:14,446 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 809c7fe5731c40ffb5f663d7e2472638_20250611115314.pdf at pdfs/809c7fe5731c40ffb5f663d7e2472638_20250611115314.pdf
+2025-06-11 11:53:14,446 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:14,448 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f1d7c2b40184409081c55f4da54ec908_20250611115314.pdf to disk
+2025-06-11 11:53:14,496 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f1d7c2b40184409081c55f4da54ec908_20250611115314.pdf at pdfs/f1d7c2b40184409081c55f4da54ec908_20250611115314.pdf
+2025-06-11 11:53:14,496 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:14,498 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e8fe2f75ef264cad9d53edd2b55ea8c0_20250611115314.pdf to disk
+2025-06-11 11:53:14,543 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e8fe2f75ef264cad9d53edd2b55ea8c0_20250611115314.pdf at pdfs/e8fe2f75ef264cad9d53edd2b55ea8c0_20250611115314.pdf
+2025-06-11 11:53:14,544 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:14,546 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e34d18fdadff438d8bb4f1fa1a1d45ae_20250611115314.pdf to disk
+2025-06-11 11:53:14,593 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e34d18fdadff438d8bb4f1fa1a1d45ae_20250611115314.pdf at pdfs/e34d18fdadff438d8bb4f1fa1a1d45ae_20250611115314.pdf
+2025-06-11 11:53:14,594 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:14,595 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/90a1b8cdf46c4df5b43f14911ceb3ac8_20250611115314.pdf to disk
+2025-06-11 11:53:14,624 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 90a1b8cdf46c4df5b43f14911ceb3ac8_20250611115314.pdf at pdfs/90a1b8cdf46c4df5b43f14911ceb3ac8_20250611115314.pdf
+2025-06-11 11:53:14,624 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:14,626 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a01e007feb564f05ab6c8358306dd0a0_20250611115314.pdf to disk
+2025-06-11 11:53:14,654 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a01e007feb564f05ab6c8358306dd0a0_20250611115314.pdf at pdfs/a01e007feb564f05ab6c8358306dd0a0_20250611115314.pdf
+2025-06-11 11:53:14,654 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:14,658 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d36a59eeb0634fcf860f31da2c68a2e5_20250611115314.pdf to disk
+2025-06-11 11:53:14,686 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d36a59eeb0634fcf860f31da2c68a2e5_20250611115314.pdf at pdfs/d36a59eeb0634fcf860f31da2c68a2e5_20250611115314.pdf
+2025-06-11 11:53:14,686 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:14,688 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/312a0e3bf1cc47258d2458eabc384e01_20250611115314.pdf to disk
+2025-06-11 11:53:14,719 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 312a0e3bf1cc47258d2458eabc384e01_20250611115314.pdf at pdfs/312a0e3bf1cc47258d2458eabc384e01_20250611115314.pdf
+2025-06-11 11:53:14,719 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:14,720 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9fd6765d2ee24faa8ff793636f290ef5_20250611115314.pdf to disk
+2025-06-11 11:53:14,749 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9fd6765d2ee24faa8ff793636f290ef5_20250611115314.pdf at pdfs/9fd6765d2ee24faa8ff793636f290ef5_20250611115314.pdf
+2025-06-11 11:53:14,750 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:14,753 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/7723517420ae4a12ad88de2b2fb4c318_20250611115314.pdf to disk
+2025-06-11 11:53:14,786 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 7723517420ae4a12ad88de2b2fb4c318_20250611115314.pdf at pdfs/7723517420ae4a12ad88de2b2fb4c318_20250611115314.pdf
+2025-06-11 11:53:14,787 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:14,791 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ecc55796548a4f3391b7701e4fab353e_20250611115314.pdf to disk
+2025-06-11 11:53:14,870 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ecc55796548a4f3391b7701e4fab353e_20250611115314.pdf at pdfs/ecc55796548a4f3391b7701e4fab353e_20250611115314.pdf
+2025-06-11 11:53:14,871 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:14,875 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9d89fc15cc1a44ab9f9a77d8f7dd6600_20250611115314.pdf to disk
+2025-06-11 11:53:14,904 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9d89fc15cc1a44ab9f9a77d8f7dd6600_20250611115314.pdf at pdfs/9d89fc15cc1a44ab9f9a77d8f7dd6600_20250611115314.pdf
+2025-06-11 11:53:14,935 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:15,870 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:15,916 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:15,919 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/8c00a436f6b0400a97325c7ce642eb77_20250611115315.pdf to disk
+2025-06-11 11:53:15,963 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 8c00a436f6b0400a97325c7ce642eb77_20250611115315.pdf at pdfs/8c00a436f6b0400a97325c7ce642eb77_20250611115315.pdf
+2025-06-11 11:53:15,963 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:15,966 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/4a2ff5f0acd7413bb801f5b3976190fd_20250611115315.pdf to disk
+2025-06-11 11:53:16,013 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 4a2ff5f0acd7413bb801f5b3976190fd_20250611115315.pdf at pdfs/4a2ff5f0acd7413bb801f5b3976190fd_20250611115315.pdf
+2025-06-11 11:53:16,014 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:16,016 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/736c635625bd44559363e89d5cbe8a4c_20250611115316.pdf to disk
+2025-06-11 11:53:16,061 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 736c635625bd44559363e89d5cbe8a4c_20250611115316.pdf at pdfs/736c635625bd44559363e89d5cbe8a4c_20250611115316.pdf
+2025-06-11 11:53:16,061 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:16,064 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/28e048d210594cc99e5c179ae6b85a21_20250611115316.pdf to disk
+2025-06-11 11:53:16,111 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 28e048d210594cc99e5c179ae6b85a21_20250611115316.pdf at pdfs/28e048d210594cc99e5c179ae6b85a21_20250611115316.pdf
+2025-06-11 11:53:16,111 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:16,112 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9f63fd70779d4ae6b6f3d84b39cbad89_20250611115316.pdf to disk
+2025-06-11 11:53:16,141 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9f63fd70779d4ae6b6f3d84b39cbad89_20250611115316.pdf at pdfs/9f63fd70779d4ae6b6f3d84b39cbad89_20250611115316.pdf
+2025-06-11 11:53:16,141 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:16,143 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/38a10d0f13f54e6f8df85f5d59fa89f7_20250611115316.pdf to disk
+2025-06-11 11:53:16,171 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 38a10d0f13f54e6f8df85f5d59fa89f7_20250611115316.pdf at pdfs/38a10d0f13f54e6f8df85f5d59fa89f7_20250611115316.pdf
+2025-06-11 11:53:16,171 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:16,174 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a39fefc937f84d2d9f5009154ced5d05_20250611115316.pdf to disk
+2025-06-11 11:53:16,203 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a39fefc937f84d2d9f5009154ced5d05_20250611115316.pdf at pdfs/a39fefc937f84d2d9f5009154ced5d05_20250611115316.pdf
+2025-06-11 11:53:16,203 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:16,216 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c37aa0da32c94383a43c3f7afa55bf70_20250611115316.pdf to disk
+2025-06-11 11:53:16,265 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c37aa0da32c94383a43c3f7afa55bf70_20250611115316.pdf at pdfs/c37aa0da32c94383a43c3f7afa55bf70_20250611115316.pdf
+2025-06-11 11:53:16,267 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:16,268 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/12b061bab7d645a9a515610fe5f0e2a3_20250611115316.pdf to disk
+2025-06-11 11:53:16,312 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 12b061bab7d645a9a515610fe5f0e2a3_20250611115316.pdf at pdfs/12b061bab7d645a9a515610fe5f0e2a3_20250611115316.pdf
+2025-06-11 11:53:16,312 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:16,314 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bb14c18dc9644a0190145333dc6df049_20250611115316.pdf to disk
+2025-06-11 11:53:16,400 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bb14c18dc9644a0190145333dc6df049_20250611115316.pdf at pdfs/bb14c18dc9644a0190145333dc6df049_20250611115316.pdf
+2025-06-11 11:53:16,401 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:16,404 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/85be506f45544ede9f5c42f9c0d78277_20250611115316.pdf to disk
+2025-06-11 11:53:16,427 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 85be506f45544ede9f5c42f9c0d78277_20250611115316.pdf at pdfs/85be506f45544ede9f5c42f9c0d78277_20250611115316.pdf
+2025-06-11 11:53:16,428 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:16,430 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/1770f564dc714bf3b249556468ad4223_20250611115316.pdf to disk
+2025-06-11 11:53:16,477 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 1770f564dc714bf3b249556468ad4223_20250611115316.pdf at pdfs/1770f564dc714bf3b249556468ad4223_20250611115316.pdf
+2025-06-11 11:53:16,497 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:17,805 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:17,838 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:17,840 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/8c1ede2e6fdb42f1b778c70b23f98efa_20250611115317.pdf to disk
+2025-06-11 11:53:17,890 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 8c1ede2e6fdb42f1b778c70b23f98efa_20250611115317.pdf at pdfs/8c1ede2e6fdb42f1b778c70b23f98efa_20250611115317.pdf
+2025-06-11 11:53:17,890 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:17,894 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d61bb2b7f1c04fd59e404ed05d699212_20250611115317.pdf to disk
+2025-06-11 11:53:17,950 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d61bb2b7f1c04fd59e404ed05d699212_20250611115317.pdf at pdfs/d61bb2b7f1c04fd59e404ed05d699212_20250611115317.pdf
+2025-06-11 11:53:17,951 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:17,952 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/1054383b9f724d04b26c3c04e251514c_20250611115317.pdf to disk
+2025-06-11 11:53:17,998 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 1054383b9f724d04b26c3c04e251514c_20250611115317.pdf at pdfs/1054383b9f724d04b26c3c04e251514c_20250611115317.pdf
+2025-06-11 11:53:17,998 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:18,000 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d1a3011d957445e69dfb4c138ef51474_20250611115317.pdf to disk
+2025-06-11 11:53:18,043 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d1a3011d957445e69dfb4c138ef51474_20250611115317.pdf at pdfs/d1a3011d957445e69dfb4c138ef51474_20250611115317.pdf
+2025-06-11 11:53:18,043 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:18,046 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/58dd44f866e5461cb7a42e63af19dd1f_20250611115318.pdf to disk
+2025-06-11 11:53:18,090 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 58dd44f866e5461cb7a42e63af19dd1f_20250611115318.pdf at pdfs/58dd44f866e5461cb7a42e63af19dd1f_20250611115318.pdf
+2025-06-11 11:53:18,090 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:18,093 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e82d26484d794a6ba0c18a97fcdd3df6_20250611115318.pdf to disk
+2025-06-11 11:53:18,137 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e82d26484d794a6ba0c18a97fcdd3df6_20250611115318.pdf at pdfs/e82d26484d794a6ba0c18a97fcdd3df6_20250611115318.pdf
+2025-06-11 11:53:18,137 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:18,140 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3b5d4a71b5cb432ea3d1e071744260d6_20250611115318.pdf to disk
+2025-06-11 11:53:18,191 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3b5d4a71b5cb432ea3d1e071744260d6_20250611115318.pdf at pdfs/3b5d4a71b5cb432ea3d1e071744260d6_20250611115318.pdf
+2025-06-11 11:53:18,191 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:18,194 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/14a106d6204c4c1fbb97c1ed6df64e21_20250611115318.pdf to disk
+2025-06-11 11:53:18,483 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 14a106d6204c4c1fbb97c1ed6df64e21_20250611115318.pdf at pdfs/14a106d6204c4c1fbb97c1ed6df64e21_20250611115318.pdf
+2025-06-11 11:53:18,484 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:18,498 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3e665eab348841868818aa4ba0b28f40_20250611115318.pdf to disk
+2025-06-11 11:53:18,548 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3e665eab348841868818aa4ba0b28f40_20250611115318.pdf at pdfs/3e665eab348841868818aa4ba0b28f40_20250611115318.pdf
+2025-06-11 11:53:18,548 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:18,553 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ba71ae06386141f5b5beed29da8f8383_20250611115318.pdf to disk
+2025-06-11 11:53:18,601 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ba71ae06386141f5b5beed29da8f8383_20250611115318.pdf at pdfs/ba71ae06386141f5b5beed29da8f8383_20250611115318.pdf
+2025-06-11 11:53:18,601 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:18,603 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/e073035419a248beb7f5974f0a2023d4_20250611115318.pdf to disk
+2025-06-11 11:53:18,647 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF e073035419a248beb7f5974f0a2023d4_20250611115318.pdf at pdfs/e073035419a248beb7f5974f0a2023d4_20250611115318.pdf
+2025-06-11 11:53:18,647 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:18,650 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2f0ac254757d4354bf4088aefaedc2bb_20250611115318.pdf to disk
+2025-06-11 11:53:18,695 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2f0ac254757d4354bf4088aefaedc2bb_20250611115318.pdf at pdfs/2f0ac254757d4354bf4088aefaedc2bb_20250611115318.pdf
+2025-06-11 11:53:18,720 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:20,048 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:20,087 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:20,095 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/33a7558a8e824606bcdbe781b5c392d3_20250611115320.pdf to disk
+2025-06-11 11:53:20,145 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 33a7558a8e824606bcdbe781b5c392d3_20250611115320.pdf at pdfs/33a7558a8e824606bcdbe781b5c392d3_20250611115320.pdf
+2025-06-11 11:53:20,145 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:20,146 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/106d3558de1142178038977d204f0ae6_20250611115320.pdf to disk
+2025-06-11 11:53:20,196 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 106d3558de1142178038977d204f0ae6_20250611115320.pdf at pdfs/106d3558de1142178038977d204f0ae6_20250611115320.pdf
+2025-06-11 11:53:20,196 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:20,198 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d785e9159b2342cd8b65e1c43a3b5a9c_20250611115320.pdf to disk
+2025-06-11 11:53:20,245 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d785e9159b2342cd8b65e1c43a3b5a9c_20250611115320.pdf at pdfs/d785e9159b2342cd8b65e1c43a3b5a9c_20250611115320.pdf
+2025-06-11 11:53:20,245 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:20,246 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/1a2e340884c34a67ae5da11fa9d5a464_20250611115320.pdf to disk
+2025-06-11 11:53:20,293 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 1a2e340884c34a67ae5da11fa9d5a464_20250611115320.pdf at pdfs/1a2e340884c34a67ae5da11fa9d5a464_20250611115320.pdf
+2025-06-11 11:53:20,293 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:20,297 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c5fc16e4ea8b44fabd128b185487e71f_20250611115320.pdf to disk
+2025-06-11 11:53:20,344 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c5fc16e4ea8b44fabd128b185487e71f_20250611115320.pdf at pdfs/c5fc16e4ea8b44fabd128b185487e71f_20250611115320.pdf
+2025-06-11 11:53:20,344 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:20,346 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f9f2c34b4cab47c1adbb50f7676913eb_20250611115320.pdf to disk
+2025-06-11 11:53:20,400 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f9f2c34b4cab47c1adbb50f7676913eb_20250611115320.pdf at pdfs/f9f2c34b4cab47c1adbb50f7676913eb_20250611115320.pdf
+2025-06-11 11:53:20,400 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:20,403 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/3834fe35e8694e7e869cc5b0227bc1db_20250611115320.pdf to disk
+2025-06-11 11:53:20,446 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 3834fe35e8694e7e869cc5b0227bc1db_20250611115320.pdf at pdfs/3834fe35e8694e7e869cc5b0227bc1db_20250611115320.pdf
+2025-06-11 11:53:20,446 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:20,447 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0c0c46dd82f54de9ad2836d4b5cb9bbd_20250611115320.pdf to disk
+2025-06-11 11:53:20,493 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0c0c46dd82f54de9ad2836d4b5cb9bbd_20250611115320.pdf at pdfs/0c0c46dd82f54de9ad2836d4b5cb9bbd_20250611115320.pdf
+2025-06-11 11:53:20,494 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:20,496 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/26cc02ba41484d4f80ecdaca933ae1c3_20250611115320.pdf to disk
+2025-06-11 11:53:20,542 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 26cc02ba41484d4f80ecdaca933ae1c3_20250611115320.pdf at pdfs/26cc02ba41484d4f80ecdaca933ae1c3_20250611115320.pdf
+2025-06-11 11:53:20,543 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:20,545 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6ec9c96a44114c4ab209f43660c59e8e_20250611115320.pdf to disk
+2025-06-11 11:53:20,592 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6ec9c96a44114c4ab209f43660c59e8e_20250611115320.pdf at pdfs/6ec9c96a44114c4ab209f43660c59e8e_20250611115320.pdf
+2025-06-11 11:53:20,592 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:20,594 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ebaff4b5b21c4749ab059d806b335a7f_20250611115320.pdf to disk
+2025-06-11 11:53:20,645 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ebaff4b5b21c4749ab059d806b335a7f_20250611115320.pdf at pdfs/ebaff4b5b21c4749ab059d806b335a7f_20250611115320.pdf
+2025-06-11 11:53:20,645 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:20,652 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0cbb53432a174c1a86b4f592ea42f293_20250611115320.pdf to disk
+2025-06-11 11:53:20,679 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0cbb53432a174c1a86b4f592ea42f293_20250611115320.pdf at pdfs/0cbb53432a174c1a86b4f592ea42f293_20250611115320.pdf
+2025-06-11 11:53:20,734 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:22,840 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:22,880 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:22,882 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ae9b77c42c804eb98dbaa344be80b05e_20250611115322.pdf to disk
+2025-06-11 11:53:22,930 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ae9b77c42c804eb98dbaa344be80b05e_20250611115322.pdf at pdfs/ae9b77c42c804eb98dbaa344be80b05e_20250611115322.pdf
+2025-06-11 11:53:22,930 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:22,932 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f6145cc5961b4df4996a4f8dadaa891a_20250611115322.pdf to disk
+2025-06-11 11:53:22,981 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f6145cc5961b4df4996a4f8dadaa891a_20250611115322.pdf at pdfs/f6145cc5961b4df4996a4f8dadaa891a_20250611115322.pdf
+2025-06-11 11:53:22,981 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:22,983 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9d4d8f0481ca4889a48cbc0f19ccffd3_20250611115322.pdf to disk
+2025-06-11 11:53:23,027 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9d4d8f0481ca4889a48cbc0f19ccffd3_20250611115322.pdf at pdfs/9d4d8f0481ca4889a48cbc0f19ccffd3_20250611115322.pdf
+2025-06-11 11:53:23,027 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:23,030 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/f8fe5179ba6d49aeb9fdeb65fe60e17f_20250611115323.pdf to disk
+2025-06-11 11:53:23,079 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF f8fe5179ba6d49aeb9fdeb65fe60e17f_20250611115323.pdf at pdfs/f8fe5179ba6d49aeb9fdeb65fe60e17f_20250611115323.pdf
+2025-06-11 11:53:23,079 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:23,082 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ba87b4cfeaac46be8e4175249f4d1caa_20250611115323.pdf to disk
+2025-06-11 11:53:23,127 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ba87b4cfeaac46be8e4175249f4d1caa_20250611115323.pdf at pdfs/ba87b4cfeaac46be8e4175249f4d1caa_20250611115323.pdf
+2025-06-11 11:53:23,127 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:23,132 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ef21b98393e249438f4f539d30eecab2_20250611115323.pdf to disk
+2025-06-11 11:53:23,185 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ef21b98393e249438f4f539d30eecab2_20250611115323.pdf at pdfs/ef21b98393e249438f4f539d30eecab2_20250611115323.pdf
+2025-06-11 11:53:23,185 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:23,186 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ed59e3ec773e40cc8adc5fdde165b104_20250611115323.pdf to disk
+2025-06-11 11:53:23,231 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ed59e3ec773e40cc8adc5fdde165b104_20250611115323.pdf at pdfs/ed59e3ec773e40cc8adc5fdde165b104_20250611115323.pdf
+2025-06-11 11:53:23,231 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:23,233 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0e7cf83f3cac408a8b610ac996d013aa_20250611115323.pdf to disk
+2025-06-11 11:53:23,280 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0e7cf83f3cac408a8b610ac996d013aa_20250611115323.pdf at pdfs/0e7cf83f3cac408a8b610ac996d013aa_20250611115323.pdf
+2025-06-11 11:53:23,280 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:23,282 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a0501a19623448f893ed0b5a46fd320c_20250611115323.pdf to disk
+2025-06-11 11:53:23,329 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a0501a19623448f893ed0b5a46fd320c_20250611115323.pdf at pdfs/a0501a19623448f893ed0b5a46fd320c_20250611115323.pdf
+2025-06-11 11:53:23,329 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:23,331 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2e7b9502444046b59f5afede5da18137_20250611115323.pdf to disk
+2025-06-11 11:53:23,381 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2e7b9502444046b59f5afede5da18137_20250611115323.pdf at pdfs/2e7b9502444046b59f5afede5da18137_20250611115323.pdf
+2025-06-11 11:53:23,381 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:23,384 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/38f8089621774e2081807234478a1944_20250611115323.pdf to disk
+2025-06-11 11:53:23,429 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 38f8089621774e2081807234478a1944_20250611115323.pdf at pdfs/38f8089621774e2081807234478a1944_20250611115323.pdf
+2025-06-11 11:53:23,429 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:23,431 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/defb1ba07757492881348087c690428a_20250611115323.pdf to disk
+2025-06-11 11:53:23,470 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF defb1ba07757492881348087c690428a_20250611115323.pdf at pdfs/defb1ba07757492881348087c690428a_20250611115323.pdf
+2025-06-11 11:53:23,902 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:25,772 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:25,796 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:25,797 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/44dfb0603e9749e0adeaf552cd7a08d9_20250611115325.pdf to disk
+2025-06-11 11:53:25,842 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 44dfb0603e9749e0adeaf552cd7a08d9_20250611115325.pdf at pdfs/44dfb0603e9749e0adeaf552cd7a08d9_20250611115325.pdf
+2025-06-11 11:53:25,843 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:25,844 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/27407b9fafd04530b709836a5b14a5a7_20250611115325.pdf to disk
+2025-06-11 11:53:25,895 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 27407b9fafd04530b709836a5b14a5a7_20250611115325.pdf at pdfs/27407b9fafd04530b709836a5b14a5a7_20250611115325.pdf
+2025-06-11 11:53:25,896 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:25,898 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/dba87b5cf9864ffc9badb36beba44ec9_20250611115325.pdf to disk
+2025-06-11 11:53:25,942 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF dba87b5cf9864ffc9badb36beba44ec9_20250611115325.pdf at pdfs/dba87b5cf9864ffc9badb36beba44ec9_20250611115325.pdf
+2025-06-11 11:53:25,943 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:25,945 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c417e272b60146149dae5c24bb372d49_20250611115325.pdf to disk
+2025-06-11 11:53:25,988 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c417e272b60146149dae5c24bb372d49_20250611115325.pdf at pdfs/c417e272b60146149dae5c24bb372d49_20250611115325.pdf
+2025-06-11 11:53:25,988 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:25,993 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/fa44362b294648cd8c598ae75f3d8e98_20250611115325.pdf to disk
+2025-06-11 11:53:26,043 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF fa44362b294648cd8c598ae75f3d8e98_20250611115325.pdf at pdfs/fa44362b294648cd8c598ae75f3d8e98_20250611115325.pdf
+2025-06-11 11:53:26,043 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:26,046 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9d44150860ad4a29995678bd0e211130_20250611115326.pdf to disk
+2025-06-11 11:53:26,091 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9d44150860ad4a29995678bd0e211130_20250611115326.pdf at pdfs/9d44150860ad4a29995678bd0e211130_20250611115326.pdf
+2025-06-11 11:53:26,092 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:26,095 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/acad95ff59964086a9da86ac5df98b67_20250611115326.pdf to disk
+2025-06-11 11:53:26,138 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF acad95ff59964086a9da86ac5df98b67_20250611115326.pdf at pdfs/acad95ff59964086a9da86ac5df98b67_20250611115326.pdf
+2025-06-11 11:53:26,138 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:26,150 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/74523c6f3a6b41a18f2487e1ee38ab49_20250611115326.pdf to disk
+2025-06-11 11:53:26,197 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 74523c6f3a6b41a18f2487e1ee38ab49_20250611115326.pdf at pdfs/74523c6f3a6b41a18f2487e1ee38ab49_20250611115326.pdf
+2025-06-11 11:53:26,197 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:26,200 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/d59867236d2f47bea18ef5dd135f5c1e_20250611115326.pdf to disk
+2025-06-11 11:53:26,248 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF d59867236d2f47bea18ef5dd135f5c1e_20250611115326.pdf at pdfs/d59867236d2f47bea18ef5dd135f5c1e_20250611115326.pdf
+2025-06-11 11:53:26,248 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:26,251 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c589eff9f5184e22aa7982c4f856cc21_20250611115326.pdf to disk
+2025-06-11 11:53:26,296 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c589eff9f5184e22aa7982c4f856cc21_20250611115326.pdf at pdfs/c589eff9f5184e22aa7982c4f856cc21_20250611115326.pdf
+2025-06-11 11:53:26,297 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:26,299 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/85cf5dc668c2425eb0c080f7070286df_20250611115326.pdf to disk
+2025-06-11 11:53:26,536 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 85cf5dc668c2425eb0c080f7070286df_20250611115326.pdf at pdfs/85cf5dc668c2425eb0c080f7070286df_20250611115326.pdf
+2025-06-11 11:53:26,536 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:26,538 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/b39197b4b7ee4fb78bf7d342fe03da0c_20250611115326.pdf to disk
+2025-06-11 11:53:26,575 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF b39197b4b7ee4fb78bf7d342fe03da0c_20250611115326.pdf at pdfs/b39197b4b7ee4fb78bf7d342fe03da0c_20250611115326.pdf
+2025-06-11 11:53:26,596 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:33,176 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:33,202 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:33,204 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6817788ca24e440fbf1dbbc12327672c_20250611115333.pdf to disk
+2025-06-11 11:53:33,248 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6817788ca24e440fbf1dbbc12327672c_20250611115333.pdf at pdfs/6817788ca24e440fbf1dbbc12327672c_20250611115333.pdf
+2025-06-11 11:53:33,249 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:33,251 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ff8df10355d54f7989207c13e611c4d7_20250611115333.pdf to disk
+2025-06-11 11:53:33,295 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ff8df10355d54f7989207c13e611c4d7_20250611115333.pdf at pdfs/ff8df10355d54f7989207c13e611c4d7_20250611115333.pdf
+2025-06-11 11:53:33,295 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:33,297 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/a7dd09eb169b447f8ede7af79f56c19f_20250611115333.pdf to disk
+2025-06-11 11:53:33,341 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF a7dd09eb169b447f8ede7af79f56c19f_20250611115333.pdf at pdfs/a7dd09eb169b447f8ede7af79f56c19f_20250611115333.pdf
+2025-06-11 11:53:33,342 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:33,345 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/32a26129a4c14e9e8e44d1a9230784ee_20250611115333.pdf to disk
+2025-06-11 11:53:33,391 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 32a26129a4c14e9e8e44d1a9230784ee_20250611115333.pdf at pdfs/32a26129a4c14e9e8e44d1a9230784ee_20250611115333.pdf
+2025-06-11 11:53:33,391 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:33,394 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/ac845012462b4b51be963380a67532dd_20250611115333.pdf to disk
+2025-06-11 11:53:33,439 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF ac845012462b4b51be963380a67532dd_20250611115333.pdf at pdfs/ac845012462b4b51be963380a67532dd_20250611115333.pdf
+2025-06-11 11:53:33,440 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:33,442 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/53c028daab84490f877a63780922f370_20250611115333.pdf to disk
+2025-06-11 11:53:33,490 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 53c028daab84490f877a63780922f370_20250611115333.pdf at pdfs/53c028daab84490f877a63780922f370_20250611115333.pdf
+2025-06-11 11:53:33,490 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:33,494 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/856160ce77c147ec8a3cf08c6c34c140_20250611115333.pdf to disk
+2025-06-11 11:53:33,551 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 856160ce77c147ec8a3cf08c6c34c140_20250611115333.pdf at pdfs/856160ce77c147ec8a3cf08c6c34c140_20250611115333.pdf
+2025-06-11 11:53:33,551 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:33,552 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/8348a6e7a3904fd087150f40b799adcc_20250611115333.pdf to disk
+2025-06-11 11:53:33,596 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 8348a6e7a3904fd087150f40b799adcc_20250611115333.pdf at pdfs/8348a6e7a3904fd087150f40b799adcc_20250611115333.pdf
+2025-06-11 11:53:33,597 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:33,599 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/0404270b5bc44abcb096b954938797c4_20250611115333.pdf to disk
+2025-06-11 11:53:33,658 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 0404270b5bc44abcb096b954938797c4_20250611115333.pdf at pdfs/0404270b5bc44abcb096b954938797c4_20250611115333.pdf
+2025-06-11 11:53:33,659 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:33,662 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/6dbb8bcb2d284861aee7caf210c5de59_20250611115333.pdf to disk
+2025-06-11 11:53:33,709 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 6dbb8bcb2d284861aee7caf210c5de59_20250611115333.pdf at pdfs/6dbb8bcb2d284861aee7caf210c5de59_20250611115333.pdf
+2025-06-11 11:53:33,710 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:33,712 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/da7ea96940e04ef29916a6a9ad70bba0_20250611115333.pdf to disk
+2025-06-11 11:53:33,757 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF da7ea96940e04ef29916a6a9ad70bba0_20250611115333.pdf at pdfs/da7ea96940e04ef29916a6a9ad70bba0_20250611115333.pdf
+2025-06-11 11:53:33,758 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:33,761 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/272dcba0ffc44d3096337eb295d30bfa_20250611115333.pdf to disk
+2025-06-11 11:53:33,829 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 272dcba0ffc44d3096337eb295d30bfa_20250611115333.pdf at pdfs/272dcba0ffc44d3096337eb295d30bfa_20250611115333.pdf
+2025-06-11 11:53:33,922 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
+2025-06-11 11:53:36,081 - logging.py - dispatch - INFO - Request: POST /api/pdfs/upload-multiple
+2025-06-11 11:53:36,113 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume1.pdf
+2025-06-11 11:53:36,115 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bc1feb0c4bc946558fdf066de16322b9_20250611115336.pdf to disk
+2025-06-11 11:53:36,162 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bc1feb0c4bc946558fdf066de16322b9_20250611115336.pdf at pdfs/bc1feb0c4bc946558fdf066de16322b9_20250611115336.pdf
+2025-06-11 11:53:36,162 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:36,165 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/2c69b7894c134c45b30cdb6c47b909e9_20250611115336.pdf to disk
+2025-06-11 11:53:36,219 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 2c69b7894c134c45b30cdb6c47b909e9_20250611115336.pdf at pdfs/2c69b7894c134c45b30cdb6c47b909e9_20250611115336.pdf
+2025-06-11 11:53:36,219 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume2.pdf
+2025-06-11 11:53:36,221 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/8f12d315b58547959e5971bfb321a973_20250611115336.pdf to disk
+2025-06-11 11:53:36,277 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 8f12d315b58547959e5971bfb321a973_20250611115336.pdf at pdfs/8f12d315b58547959e5971bfb321a973_20250611115336.pdf
+2025-06-11 11:53:36,278 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume3.pdf
+2025-06-11 11:53:36,279 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/402ec7f940d1492d9ffb37049679201b_20250611115336.pdf to disk
+2025-06-11 11:53:36,327 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 402ec7f940d1492d9ffb37049679201b_20250611115336.pdf at pdfs/402ec7f940d1492d9ffb37049679201b_20250611115336.pdf
+2025-06-11 11:53:36,328 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume4.pdf
+2025-06-11 11:53:36,336 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/9dca11f1f1ec44e1815bf96b0b14a9c5_20250611115336.pdf to disk
+2025-06-11 11:53:36,389 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 9dca11f1f1ec44e1815bf96b0b14a9c5_20250611115336.pdf at pdfs/9dca11f1f1ec44e1815bf96b0b14a9c5_20250611115336.pdf
+2025-06-11 11:53:36,389 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume5.pdf
+2025-06-11 11:53:36,392 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bf648e32b52a4f66b437599bf1bd2d3f_20250611115336.pdf to disk
+2025-06-11 11:53:36,445 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bf648e32b52a4f66b437599bf1bd2d3f_20250611115336.pdf at pdfs/bf648e32b52a4f66b437599bf1bd2d3f_20250611115336.pdf
+2025-06-11 11:53:36,445 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume6.pdf
+2025-06-11 11:53:36,447 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/1ecf9d62ca9b48d2930e14e5b882a7e1_20250611115336.pdf to disk
+2025-06-11 11:53:36,492 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 1ecf9d62ca9b48d2930e14e5b882a7e1_20250611115336.pdf at pdfs/1ecf9d62ca9b48d2930e14e5b882a7e1_20250611115336.pdf
+2025-06-11 11:53:36,492 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume7.pdf
+2025-06-11 11:53:36,495 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/088009e1186a4764b341a9295d6e5569_20250611115336.pdf to disk
+2025-06-11 11:53:36,743 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 088009e1186a4764b341a9295d6e5569_20250611115336.pdf at pdfs/088009e1186a4764b341a9295d6e5569_20250611115336.pdf
+2025-06-11 11:53:36,745 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume8.pdf
+2025-06-11 11:53:36,751 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/54f70666b7c34333b66553d909005ce4_20250611115336.pdf to disk
+2025-06-11 11:53:36,804 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF 54f70666b7c34333b66553d909005ce4_20250611115336.pdf at pdfs/54f70666b7c34333b66553d909005ce4_20250611115336.pdf
+2025-06-11 11:53:36,804 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume9.pdf
+2025-06-11 11:53:36,808 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/bebf80ca8ec14cb2812e25639ea77a2d_20250611115336.pdf to disk
+2025-06-11 11:53:36,858 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF bebf80ca8ec14cb2812e25639ea77a2d_20250611115336.pdf at pdfs/bebf80ca8ec14cb2812e25639ea77a2d_20250611115336.pdf
+2025-06-11 11:53:36,858 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10 copy.pdf
+2025-06-11 11:53:36,862 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c21744cc1df94c7584e9fe5a5af41f5a_20250611115336.pdf to disk
+2025-06-11 11:53:37,136 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c21744cc1df94c7584e9fe5a5af41f5a_20250611115336.pdf at pdfs/c21744cc1df94c7584e9fe5a5af41f5a_20250611115336.pdf
+2025-06-11 11:53:37,137 - multiple_pdfs_service.py - upload_pdf - INFO - Uploading PDF file: resume10.pdf
+2025-06-11 11:53:37,142 - multiple_pdfs_service.py - save_pdf_to_disk - INFO - Saved PDF file: pdfs/c9ebe402abcb43cab5d298b25b20c8c4_20250611115337.pdf to disk
+2025-06-11 11:53:37,387 - multiple_pdfs_service.py - upload_pdf - INFO - Successfully saved PDF c9ebe402abcb43cab5d298b25b20c8c4_20250611115337.pdf at pdfs/c9ebe402abcb43cab5d298b25b20c8c4_20250611115337.pdf
+2025-06-11 11:53:37,485 - logging.py - dispatch - INFO - Response: 200 for POST /api/pdfs/upload-multiple
