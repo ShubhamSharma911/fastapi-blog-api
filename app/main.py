@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 app.mount("/resumes", StaticFiles(directory="resumes"), name="resumes")
-app.mount("/pdfs", StaticFiles(directory="pdfs"), name="pdfs")
+app.mount("/static/pdfs", StaticFiles(directory="pdfs"), name="pdfs")
 
 app.include_router(post.router)
 app.include_router(user.router)

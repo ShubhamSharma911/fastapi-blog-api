@@ -47,9 +47,18 @@ async def search_skills_multiprocessing(skills: List[str], db: Session):
     logger.info(f"Found {len(pdfs)} PDFs to search through")
     
     # Prepare data for multiprocessing
+    # below will create a list of tuples, each containing a pdf and the list of skills
+    # this will be used to process the pdfs in parallel
     pdf_data = [(pdf, skills) for pdf in pdfs]
     
     # Use multiprocessing to process PDFs in parallel
+    # cpu_count() will return the number of CPUs in the system
+    # processes=cpu_count() will use all the CPUs in the system
+    # pool.map will process the pdf_data in parallel
+    # process_single_pdf will be called for each pdf in the pdf_data
+    # process_single_pdf will return a dictionary containing the name, email, pdf_id, and matched_skills
+    # the results will be a list of dictionaries
+    # the valid_results will be a list of dictionaries that are not None
     with Pool(processes=cpu_count()) as pool:
         results = pool.map(process_single_pdf, pdf_data)
     

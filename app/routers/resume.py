@@ -52,9 +52,6 @@ async def upload_multiple_resumes(
         responses.append(response)
     return responses
 
-
-
-
 @router.post("/search-skills", status_code=status.HTTP_200_OK)
 async def search_resumes_by_skills(
     skills: list[str] = Query(..., description="List of skills to search for"),
