@@ -1,5 +1,6 @@
 from logging.config import fileConfig
-from app.models import User, Post, Vote
+from app.models import User, Post, Vote, Resume, PDF, Payment
+from app.status import Status
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from alembic import context

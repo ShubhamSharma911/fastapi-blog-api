@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from pydantic import BaseModel, EmailStr, conint, ConfigDict
+from pydantic import BaseModel, EmailStr, conint, ConfigDict, Field
 
 
 # User schema
@@ -92,3 +92,14 @@ class ResumeUploadResponse(BaseModel):
     message: str
     filename: Optional[str] = None
     uploaded_at: Optional[datetime] = None
+
+# Payment
+
+class CreateOrderRequest(BaseModel):
+    user_id: int
+    amount: float = Field(gt=0, description="Amount in rupees")
+
+class CreateOrderResponse(BaseModel):
+    order_id: str
+    amount: int
+    currency: str

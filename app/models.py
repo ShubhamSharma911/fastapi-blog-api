@@ -1,4 +1,6 @@
-from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey, DateTime, UniqueConstraint, func,Enum as SqlEnum
+
+from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey, DateTime, UniqueConstraint, func, \
+    Enum as SqlEnum, Float
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
 Base = declarative_base()
@@ -53,3 +55,20 @@ class PDF(Base):
     filename = Column(String, nullable=False)
     filepath = Column(String, nullable=False)
     is_deleted = Column(Boolean, nullable=False, server_default=text("False"))
+
+
+#-------------------PAYMENT-------------
+class Payment(Base):
+    __tablename__ = "payments"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+
+    razorpay_order_id = Column(String, unique=True, nullable=False)
+    razorpay_payment_id = Column(String, nullable=True)
+    razorpay_signature = Column(String, nullable=True)
+
+    amount = Column(Float, nullable=False)
+    status = Column(String, default="created")  # 'created', 'paid', 'failed'
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now())

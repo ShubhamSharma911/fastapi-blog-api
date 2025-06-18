@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.staticfiles import StaticFiles
 import os
 from .logger import logger
-from .routers import post, user, auth, vote, resume, pdfs
+from .routers import post, user, auth, vote, resume, pdfs, payment
 from app.middleware.logging import LoggingMiddleware
 
 app = FastAPI()
@@ -32,7 +32,7 @@ app.include_router(vote.router)
 
 app.include_router(resume.router)
 app.include_router(pdfs.router)
-
+app.include_router(payment.router)
 @app.get("/")
 def root(request: Request):
     logger.info(f"Root directory accessed: {request.method} {request.url.path}")
