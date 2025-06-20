@@ -81,3 +81,5 @@ def update_post(post_id: int, post: schemas.PostCreate, db: session = Depends(ge
     db.commit()
     return updated_post
 
+
+

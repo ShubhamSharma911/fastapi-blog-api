@@ -11197,3 +11197,39 @@
 2025-06-17 17:33:49,128 - logging.py - dispatch - INFO - Response: 200 for GET /users
 2025-06-18 11:09:09,430 - logging.py - dispatch - INFO - Request: POST /payment/create-order
 2025-06-18 11:09:11,455 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 12:20:54,829 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 12:20:56,854 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 12:35:31,625 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 12:35:32,105 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 13:07:05,633 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 13:07:07,264 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 13:27:54,443 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 13:27:55,946 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 13:35:02,843 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 13:35:03,059 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 14:55:38,592 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 14:56:07,072 - logging.py - dispatch - INFO - Response: 500 for POST /payment/create-order
+2025-06-19 15:00:49,821 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 15:00:51,232 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 15:02:14,357 - logging.py - dispatch - INFO - Request: POST /webhook
+2025-06-19 15:02:14,359 - logging.py - dispatch - INFO - Response: 404 for POST /webhook
+2025-06-19 15:02:14,543 - logging.py - dispatch - INFO - Request: POST /webhook
+2025-06-19 15:02:14,544 - logging.py - dispatch - INFO - Response: 404 for POST /webhook
+2025-06-19 15:05:13,565 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 15:05:13,764 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 15:06:02,346 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 15:06:02,805 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 15:37:51,640 - logging.py - dispatch - INFO - Request: POST /payment/create-order
+2025-06-19 15:37:53,466 - logging.py - dispatch - INFO - Response: 200 for POST /payment/create-order
+2025-06-19 15:40:32,846 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 15:40:32,922 - logging.py - dispatch - INFO - Response: 200 for POST /webhook/razorpay
+2025-06-19 15:40:55,781 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 15:40:55,794 - logging.py - dispatch - INFO - Response: 200 for POST /webhook/razorpay
+2025-06-19 17:39:34,414 - logging.py - dispatch - INFO - Request: POST /webhook
+2025-06-19 17:39:34,421 - logging.py - dispatch - INFO - Response: 404 for POST /webhook
+2025-06-19 17:39:35,759 - logging.py - dispatch - INFO - Request: POST /webhook
+2025-06-19 17:39:35,760 - logging.py - dispatch - INFO - Response: 404 for POST /webhook
+2025-06-19 17:42:57,740 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 17:42:57,767 - logging.py - dispatch - INFO - Response: 200 for POST /webhook/razorpay
+2025-06-19 17:42:58,334 - logging.py - dispatch - INFO - Request: POST /webhook/razorpay
+2025-06-19 17:42:58,374 - logging.py - dispatch - INFO - Response: 200 for POST /webhook/razorpay
