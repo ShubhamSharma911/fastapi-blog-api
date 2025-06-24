@@ -8,6 +8,9 @@ from typing import List
 from .. import utils
 from ..database import get_db
 from app.logger import logger
+from app.role import Role
+from app.utilsp.role_required import require_role
+
 router = APIRouter(
     prefix="/users",
     tags=["user"]
@@ -22,10 +25,14 @@ def create_user(user: schemas.CreateUser, db: session = Depends(get_db)):
 
     logger.debug(f"Password hashed for email: {user.email}")
 
-    new_user = models.User(**user.model_dump())
-    new_user.password = hashed_password
-    new_user.created_at = datetime.now(UTC)
-    new_user.updated_at = datetime.now(UTC)
+    new_user = models.User(
+        email=user.email,
+        password=hashed_password,
+        role=user.role,
+        is_active=True,
+        is_deleted=False,
+        created_at=datetime.now(UTC),
+    )
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
@@ -49,9 +56,10 @@ def delete_users(user_id:int, db: session = Depends(get_db)):
     return "deleted"
 
 
-@router.get("/{user_id}",status_code= status.HTTP_200_OK)
-def get_user_by_id(user_id: int, db: session = Depends(get_db), response_model=schemas.CreateUserResponse):
+@router.get("/{user_id}", status_code=status.HTTP_200_OK, response_model=schemas.CreateUserResponse)
+@require_role("admin")
+def get_user_by_id(user_id: int, db: session = Depends(get_db)):
     user = db.query(models.User).get(user_id)
-    if user is None or  user.is_deleted:
+    if user is None or user.is_deleted:
         raise HTTPException(status_code=404, detail="User not found")
     return user
