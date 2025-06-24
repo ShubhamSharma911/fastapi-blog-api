@@ -3,6 +3,9 @@ from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, Foreig
     Enum as SqlEnum, Float
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
+
+from app.role import Role
+
 Base = declarative_base()
 from app.status import Status
 from enum import Enum
@@ -27,6 +30,8 @@ class User(Base):
     is_deleted = Column(Boolean, nullable=False, server_default=text("False"))
     created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text("NOW()"))
     is_active = Column(Boolean, nullable=False, server_default=text("True"))
+
+    role = Column(SqlEnum(Role), nullable=False, server_default=Role.CUSTOMER.value)
 
 
 class Vote(Base):
