@@ -1,14 +1,14 @@
-
 from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey, DateTime, UniqueConstraint, func, \
     Enum as SqlEnum, Float
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
 
-from app.role import Role
+from app.role import Role, RoleEnum
+from enum import Enum
 
 Base = declarative_base()
 from app.status import Status
-from enum import Enum
+
 class Post(Base):
     __tablename__ = "posts"
 
@@ -31,7 +31,8 @@ class User(Base):
     created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text("NOW()"))
     is_active = Column(Boolean, nullable=False, server_default=text("True"))
 
-    role = Column(SqlEnum(Role), nullable=False, server_default=Role.CUSTOMER.value)
+    role_id = Column(Integer, ForeignKey("roles.id"))
+    role = relationship("Role")
 
 
 class Vote(Base):
