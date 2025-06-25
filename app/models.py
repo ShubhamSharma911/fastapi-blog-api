@@ -1,12 +1,9 @@
 from sqlalchemy import Column, Integer, String, Boolean, TIMESTAMP, text, ForeignKey, DateTime, UniqueConstraint, func, \
     Enum as SqlEnum, Float
-from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import relationship
+from app.role import Role
 
-from app.role import Role, RoleEnum
-from enum import Enum
-
-Base = declarative_base()
+from app.database import Base
 from app.status import Status
 
 class Post(Base):
